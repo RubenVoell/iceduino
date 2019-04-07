@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS25LP080D
+D FLASH - NOR Memory IC 8Mb (1M x 8) SPI - Quad I/O, QPI, DTR 133MHz 8-SOIC
+K IC FLASH 8M SPI 133MHZ 8SOP
+F http://www.issi.com/WW/pdf/25LP-WP080D.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 93LCxxBT-I_OT
+D EEPROM Memory IC 2Kb (128 x 16) SPI 2MHz SOT-23-6 
+K IC EEPROM 2K SPI 2MHZ SOT23-6
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21794G.pdf
+$ENDCMP
+#
+#End Doc Library

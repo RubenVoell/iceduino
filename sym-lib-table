@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ice40hx4k)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/ice40hx4k.lib)(options "")(descr ""))
+  (lib (name 93LCxxBT)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/93LCxxBT.lib)(options "")(descr ""))
+  (lib (name IS25LP080D)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/IS25LP080D.lib)(options "")(descr ""))
+)
