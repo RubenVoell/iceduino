@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS61WV5128EDBLL-10TLI
+D SRAM - Asynchronous Memory IC 4Mb (512K x 8) Parallel 45ns 32-TSOP I
+K IC SRAM 4M PARALLEL 32TSOP I
+F http://www.issi.com/WW/pdf/61-64WV5128EDBLL.pdf
+$ENDCMP
+#
+#End Doc Library
