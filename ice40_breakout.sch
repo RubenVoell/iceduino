@@ -109,4 +109,48 @@ Wire Bus Line
 Connection ~ 6200 3725
 Wire Bus Line
 	6200 3725 6200 3500
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CBF1383
+P 1400 1750
+F 0 "H1" H 1500 1796 50  0000 L CNN
+F 1 "MountingHole" H 1500 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 1400 1750 50  0001 C CNN
+F 3 "~" H 1400 1750 50  0001 C CNN
+	1    1400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CBF174A
+P 1400 1975
+F 0 "H2" H 1500 2021 50  0000 L CNN
+F 1 "MountingHole" H 1500 1930 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 1400 1975 50  0001 C CNN
+F 3 "~" H 1400 1975 50  0001 C CNN
+	1    1400 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CBF1927
+P 1400 2175
+F 0 "H3" H 1500 2221 50  0000 L CNN
+F 1 "MountingHole" H 1500 2130 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 1400 2175 50  0001 C CNN
+F 3 "~" H 1400 2175 50  0001 C CNN
+	1    1400 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CBF1CC2
+P 1400 2375
+F 0 "H4" H 1500 2421 50  0000 L CNN
+F 1 "MountingHole" H 1500 2330 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 1400 2375 50  0001 C CNN
+F 3 "~" H 1400 2375 50  0001 C CNN
+	1    1400 2375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

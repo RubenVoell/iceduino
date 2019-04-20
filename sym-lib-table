@@ -3,4 +3,7 @@
   (lib (name 93LCxxBT)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/93LCxxBT.lib)(options "")(descr ""))
   (lib (name IS25LP080D)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/IS25LP080D.lib)(options "")(descr ""))
   (lib (name IS62WV5128)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/IS62WV5128.lib)(options "")(descr ""))
+  (lib (name is61wv5128edbll)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/is61wv5128edbll.lib)(options "")(descr ""))
+  (lib (name TLV62568APDRLR)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/TLV62568APDRLR.lib)(options "")(descr ""))
+  (lib (name AOZ8904CIL)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/AOZ8904CIL.lib)(options "")(descr ""))
 )
