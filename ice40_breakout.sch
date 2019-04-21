@@ -27,7 +27,7 @@ F0 "User Interface" 50
 F1 "ui.sch" 50
 $EndSheet
 Text Notes 550  7475 0    50   ~ 0
-https://www.latticesemi.com/en/Products/FPGAandCPLD/iCE40\n\nhttp://www.latticesemi.com/~/media/LatticeSemi/Documents/UserManuals/EI/EB85.pdf\nhttps://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/iCE/FPGA-DS-02029-3-5-iCE40-LP-HX-Family-Data-Sheet.ashx?document_id=49312\nhttps://www.latticesemi.com/-/media/LatticeSemi/Documents/PinPackage/PackageDiagrams.ashx?document_id=213
+https://www.latticesemi.com/en/Products/FPGAandCPLD/iCE40\n\nhttp://www.latticesemi.com/~/media/LatticeSemi/Documents/UserManuals/EI/icestickusermanual.pdf\n\nhttp://www.latticesemi.com/~/media/LatticeSemi/Documents/UserManuals/EI/EB85.pdf\nhttps://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/iCE/FPGA-DS-02029-3-5-iCE40-LP-HX-Family-Data-Sheet.ashx?document_id=49312\nhttps://www.latticesemi.com/-/media/LatticeSemi/Documents/PinPackage/PackageDiagrams.ashx?document_id=213
 $Sheet
 S 7150 2700 1575 875 
 U 5CADFC7F

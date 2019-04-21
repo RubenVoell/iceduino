@@ -6,4 +6,5 @@
   (lib (name is61wv5128edbll)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/is61wv5128edbll.lib)(options "")(descr ""))
   (lib (name TLV62568APDRLR)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/TLV62568APDRLR.lib)(options "")(descr ""))
   (lib (name AOZ8904CIL)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/AOZ8904CIL.lib)(options "")(descr ""))
+  (lib (name ECS-3225S)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/ECS-3225S.lib)(options "")(descr ""))
 )
