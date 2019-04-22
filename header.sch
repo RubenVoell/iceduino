@@ -37,23 +37,6 @@ F 3 "" H 2525 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW?
-U 1 1 5CB172CF
-P 1350 3125
-AR Path="/5CAB7CD4/5CB172CF" Ref="SW?"  Part="1" 
-AR Path="/5CB5889B/5CB172CF" Ref="SW6"  Part="1" 
-F 0 "SW6" H 1350 3410 50  0000 C CNN
-F 1 "SW_Push" H 1350 3319 50  0000 C CNN
-F 2 "footprints:SW_SPST_TL3305A" H 1350 3325 50  0001 C CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P010468.pdf" H 1350 3325 50  0001 C CNN
-F 4 "E-Switch" H 1350 3125 50  0001 C CNN "Mfg Name"
-F 5 "TL3305AF160QG" H 1350 3125 50  0001 C CNN "Mfg Part Num"
-F 6 "EG5350CT-ND" H 1350 3125 50  0001 C CNN "Digikey"
-F 7 "SWITCH TACTILE SPST-NO 50MA 12V" H 1350 3125 50  0001 C CNN "Description"
-	1    1350 3125
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x08 J2
 U 1 1 5CB7DD50
 P 1575 5925
@@ -477,38 +460,38 @@ Text Label 1750 1900 0    50   ~ 0
 OE1
 Wire Wire Line
 	1750 1900 2325 1900
-Text Label 1750 2100 0    50   ~ 0
+Text Label 8975 3025 0    50   ~ 0
 FPGA_INO_SDA
 Wire Wire Line
-	1750 2100 2325 2100
-Text Label 1750 2000 0    50   ~ 0
+	8975 3025 9550 3025
+Text Label 8975 2925 0    50   ~ 0
 FPGA_INO_SCL
 Wire Wire Line
-	1750 2000 2325 2000
-Text Label 1750 2700 0    50   ~ 0
+	8975 2925 9550 2925
+Text Label 8975 3625 0    50   ~ 0
 FPGA_INO_D8
 Wire Wire Line
-	1750 2700 2325 2700
-Text Label 1750 2600 0    50   ~ 0
+	8975 3625 9550 3625
+Text Label 8975 3525 0    50   ~ 0
 FPGA_INO_D9
 Wire Wire Line
-	1750 2600 2325 2600
-Text Label 1750 2500 0    50   ~ 0
+	8975 3525 9550 3525
+Text Label 8975 3425 0    50   ~ 0
 FPGA_INO_SS
 Wire Wire Line
-	1750 2500 2325 2500
-Text Label 1750 2400 0    50   ~ 0
+	8975 3425 9550 3425
+Text Label 8975 3325 0    50   ~ 0
 FPGA_INO_MOSI
 Wire Wire Line
-	1750 2400 2325 2400
-Text Label 1750 2300 0    50   ~ 0
+	8975 3325 9550 3325
+Text Label 8975 3225 0    50   ~ 0
 FPGA_INO_MISO
 Wire Wire Line
-	1750 2300 2325 2300
-Text Label 1750 2200 0    50   ~ 0
+	8975 3225 9550 3225
+Text Label 8975 3125 0    50   ~ 0
 FPGA_INO_SCK
 Wire Wire Line
-	1750 2200 2325 2200
+	8975 3125 9550 3125
 Text Label 8975 3725 0    50   ~ 0
 OE0
 Wire Wire Line
@@ -659,19 +642,6 @@ Text Label 4675 6250 3    50   ~ 0
 OE1
 Wire Wire Line
 	4675 6250 4675 6450
-$Comp
-L Device:C C?
-U 1 1 5CD4AF05
-P 5100 6600
-AR Path="/5CAB7CD4/5CD4AF05" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CD4AF05" Ref="C26"  Part="1" 
-F 0 "C26" H 5215 6646 50  0000 L CNN
-F 1 "100nF" H 5215 6555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5138 6450 50  0001 C CNN
-F 3 "~" H 5100 6600 50  0001 C CNN
-	1    5100 6600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5CD4ED57
@@ -862,36 +832,20 @@ F 3 "~" H 5850 1600 50  0001 C CNN
 	1    5850 1600
 	-1   0    0    -1  
 $EndComp
-Text Label 5325 1400 0    50   ~ 0
-P1_1
 Wire Wire Line
 	5325 1400 5550 1400
-Text Label 5325 1500 0    50   ~ 0
-P2_1
 Wire Wire Line
 	5325 1500 5550 1500
-Text Label 5325 1600 0    50   ~ 0
-P3_1
 Wire Wire Line
 	5325 1600 5550 1600
-Text Label 5325 1700 0    50   ~ 0
-P4_1
 Wire Wire Line
 	5325 1700 5550 1700
-Text Label 6275 1400 2    50   ~ 0
-P7_1
 Wire Wire Line
 	6275 1400 6050 1400
-Text Label 6275 1500 2    50   ~ 0
-P8_1
 Wire Wire Line
 	6275 1500 6050 1500
-Text Label 6275 1600 2    50   ~ 0
-P9_1
 Wire Wire Line
 	6275 1600 6050 1600
-Text Label 6275 1700 2    50   ~ 0
-P10_1
 Wire Wire Line
 	6275 1700 6050 1700
 $Comp
@@ -957,8 +911,6 @@ F 3 "~" H 7450 1600 50  0001 C CNN
 	1    7450 1600
 	-1   0    0    -1  
 $EndComp
-Text Label 6925 1400 0    50   ~ 0
-P1_2
 Wire Wire Line
 	6925 1400 7150 1400
 Text Label 6925 1500 0    50   ~ 0
@@ -1085,99 +1037,238 @@ P10_3
 Wire Wire Line
 	6275 2600 6050 2600
 Text Label 9325 1025 0    50   ~ 0
-P1_1
+P1_2
 Wire Wire Line
 	9325 1025 9550 1025
 Text Label 9325 1125 0    50   ~ 0
-P2_1
+P2_2
 Wire Wire Line
 	9325 1125 9550 1125
 Text Label 9325 1225 0    50   ~ 0
-P3_1
+P3_2
 Wire Wire Line
 	9325 1225 9550 1225
 Text Label 9325 1325 0    50   ~ 0
-P4_1
+P4_2
 Wire Wire Line
 	9325 1325 9550 1325
 Text Label 9325 1425 0    50   ~ 0
-P7_1
+P7_2
 Wire Wire Line
 	9325 1425 9550 1425
 Text Label 9325 1525 0    50   ~ 0
-P8_1
+P8_2
 Wire Wire Line
 	9325 1525 9550 1525
 Text Label 9325 1625 0    50   ~ 0
-P9_1
+P9_2
 Wire Wire Line
 	9325 1625 9550 1625
 Text Label 9325 1725 0    50   ~ 0
-P10_1
+P10_2
 Wire Wire Line
 	9325 1725 9550 1725
 Text Label 9325 1825 0    50   ~ 0
-P1_2
+P1_3
 Wire Wire Line
 	9325 1825 9550 1825
 Text Label 9325 1925 0    50   ~ 0
-P2_2
+P2_3
 Wire Wire Line
 	9325 1925 9550 1925
 Text Label 9325 2025 0    50   ~ 0
-P3_2
+P3_3
 Wire Wire Line
 	9325 2025 9550 2025
 Text Label 9325 2125 0    50   ~ 0
-P4_2
+P4_3
 Wire Wire Line
 	9325 2125 9550 2125
 Text Label 9325 2225 0    50   ~ 0
-P7_2
+P7_3
 Wire Wire Line
 	9325 2225 9550 2225
 Text Label 9325 2325 0    50   ~ 0
-P8_2
+P8_3
 Wire Wire Line
 	9325 2325 9550 2325
 Text Label 9325 2425 0    50   ~ 0
-P9_2
-Wire Wire Line
-	9325 2425 9550 2425
-Text Label 9325 2725 0    50   ~ 0
-P10_2
-Wire Wire Line
-	9325 2725 9550 2725
-Text Label 9325 2825 0    50   ~ 0
-P1_3
-Wire Wire Line
-	9325 2825 9550 2825
-Text Label 9325 2925 0    50   ~ 0
-P2_3
-Wire Wire Line
-	9325 2925 9550 2925
-Text Label 9325 3025 0    50   ~ 0
-P3_3
-Wire Wire Line
-	9325 3025 9550 3025
-Text Label 9325 3125 0    50   ~ 0
-P4_3
-Wire Wire Line
-	9325 3125 9550 3125
-Text Label 9325 3225 0    50   ~ 0
-P7_3
-Wire Wire Line
-	9325 3225 9550 3225
-Text Label 9325 3325 0    50   ~ 0
-P8_3
-Wire Wire Line
-	9325 3325 9550 3325
-Text Label 9325 3425 0    50   ~ 0
 P9_3
 Wire Wire Line
-	9325 3425 9550 3425
-Text Label 9325 3525 0    50   ~ 0
+	9325 2425 9550 2425
+Text Label 9325 2525 0    50   ~ 0
 P10_3
 Wire Wire Line
-	9325 3525 9550 3525
+	9325 2525 9550 2525
+Text Notes 7575 6200 0    50   ~ 10
+TODO:\n\n- Solder Jumper to bridge level shifters\n- Add I2C ADC for analog channel of arduino header\n- Add level shifter for digital function of analog header(maybe to bank 0
+Text GLabel 1775 2000 0    39   Input ~ 0
+TXD
+Text GLabel 1775 2100 0    39   Output ~ 0
+RXD
+Text GLabel 1775 2300 0    39   Input ~ 0
+~RTS~
+Text GLabel 1775 2400 0    39   Output ~ 0
+~CTS~
+Text GLabel 1775 2500 0    39   Input ~ 0
+~DTR~
+Text GLabel 1775 2600 0    39   Output ~ 0
+~DSR~
+Text GLabel 1775 2700 0    39   Output ~ 0
+~DCD~
+Text Label 6925 1400 0    50   ~ 0
+P1_2
+Text GLabel 5325 1400 0    50   BiDi ~ 0
+P1_1
+Text GLabel 5325 1500 0    50   BiDi ~ 0
+P2_1
+Text GLabel 5325 1600 0    50   BiDi ~ 0
+P3_1
+Text GLabel 5325 1700 0    50   BiDi ~ 0
+P4_1
+Text GLabel 6275 1400 2    50   BiDi ~ 0
+P7_1
+Text GLabel 6275 1500 2    50   BiDi ~ 0
+P8_1
+Text GLabel 6275 1600 2    50   BiDi ~ 0
+P9_1
+Text GLabel 6275 1700 2    50   BiDi ~ 0
+P10_1
+Wire Wire Line
+	2325 2700 1775 2700
+Wire Wire Line
+	1775 2600 2325 2600
+Wire Wire Line
+	2325 2500 1775 2500
+Wire Wire Line
+	1775 2400 2325 2400
+Wire Wire Line
+	2325 2300 1775 2300
+Wire Wire Line
+	1775 2000 2325 2000
+Wire Wire Line
+	2325 2100 1775 2100
+Text Notes 5000 1675 1    50   ~ 0
+Bank 0
+Text Notes 6650 1675 1    50   ~ 0
+Bank 0
+Connection ~ 925  2375
+Wire Wire Line
+	925  2325 925  2375
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D05805B
+P 925 2325
+AR Path="/5CAB8B22/5D05805B" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5889B/5D05805B" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 925 2175 50  0001 C CNN
+F 1 "+3V3" V 940 2453 50  0000 L CNN
+F 2 "" H 925 2325 50  0001 C CNN
+F 3 "" H 925 2325 50  0001 C CNN
+	1    925  2325
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	775  2375 925  2375
+Wire Wire Line
+	775  2425 775  2375
+$Comp
+L Device:R R?
+U 1 1 5D058055
+P 775 2575
+AR Path="/5CAB8B22/5D058055" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/5D058055" Ref="R54"  Part="1" 
+F 0 "R54" H 705 2621 50  0000 R CNN
+F 1 "10k" H 705 2530 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 705 2575 50  0001 C CNN
+F 3 "~" H 775 2575 50  0001 C CNN
+	1    775  2575
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	925  2375 1075 2375
+Wire Wire Line
+	1075 2375 1075 2425
+$Comp
+L Device:R R?
+U 1 1 5D058061
+P 1075 2575
+AR Path="/5CAB8B22/5D058061" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/5D058061" Ref="R55"  Part="1" 
+F 0 "R55" H 1005 2621 50  0000 R CNN
+F 1 "10k" H 1005 2530 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1005 2575 50  0001 C CNN
+F 3 "~" H 1075 2575 50  0001 C CNN
+	1    1075 2575
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1775 3000 2325 3000
+Wire Wire Line
+	2325 3100 1775 3100
+Text GLabel 1775 3100 0    39   Input ~ 0
+CRESET_B
+Text GLabel 1775 3000 0    39   Output ~ 0
+CDONE
+Text GLabel 1075 2800 3    39   Output ~ 0
+CRESET_B
+Text GLabel 775  2800 3    39   Output ~ 0
+CDONE
+Wire Wire Line
+	1075 2800 1075 2725
+Wire Wire Line
+	775  2800 775  2725
+Wire Wire Line
+	1075 4100 1075 4000
+$Comp
+L power:GND #PWR0136
+U 1 1 5D1576AB
+P 1075 4100
+F 0 "#PWR0136" H 1075 3850 50  0001 C CNN
+F 1 "GND" H 1080 3927 50  0000 C CNN
+F 2 "" H 1075 4100 50  0001 C CNN
+F 3 "" H 1075 4100 50  0001 C CNN
+	1    1075 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 3525 1075 3600
+Text GLabel 1075 3525 1    39   Output ~ 0
+CRESET_B
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5CB172CF
+P 1075 3800
+AR Path="/5CAB7CD4/5CB172CF" Ref="SW?"  Part="1" 
+AR Path="/5CB5889B/5CB172CF" Ref="SW6"  Part="1" 
+F 0 "SW6" V 1121 3752 50  0000 R CNN
+F 1 "SW_Push" V 1030 3752 50  0000 R CNN
+F 2 "footprints:SW_SPST_TL3305A" H 1075 4000 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010468.pdf" H 1075 4000 50  0001 C CNN
+F 4 "E-Switch" H 1075 3800 50  0001 C CNN "Mfg Name"
+F 5 "TL3305AF160QG" H 1075 3800 50  0001 C CNN "Mfg Part Num"
+F 6 "EG5350CT-ND" H 1075 3800 50  0001 C CNN "Digikey"
+F 7 "SWITCH TACTILE SPST-NO 50MA 12V" H 1075 3800 50  0001 C CNN "Description"
+	1    1075 3800
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2325 2800
+NoConn ~ 2325 2900
+Text GLabel 9325 2625 0    50   Input ~ 0
+ICE_CLK_12M
+Wire Wire Line
+	9325 2625 9550 2625
+$Comp
+L Device:C C?
+U 1 1 5CD4AF05
+P 5100 6600
+AR Path="/5CAB7CD4/5CD4AF05" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/5CD4AF05" Ref="C26"  Part="1" 
+F 0 "C26" H 5215 6646 50  0000 L CNN
+F 1 "100nF" H 5215 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5138 6450 50  0001 C CNN
+F 3 "~" H 5100 6600 50  0001 C CNN
+	1    5100 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

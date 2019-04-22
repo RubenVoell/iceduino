@@ -398,38 +398,38 @@ Text Label 4200 950  3    50   ~ 0
 LED7
 Wire Wire Line
 	4200 950  4200 1200
-Text Label 7975 1575 0    50   ~ 0
-LED0
-Wire Wire Line
-	7975 1575 8225 1575
 Text Label 7975 1675 0    50   ~ 0
-LED1
+LED0
 Wire Wire Line
 	7975 1675 8225 1675
 Text Label 7975 1775 0    50   ~ 0
-LED2
+LED1
 Wire Wire Line
 	7975 1775 8225 1775
 Text Label 7975 1875 0    50   ~ 0
-LED3
+LED2
 Wire Wire Line
 	7975 1875 8225 1875
 Text Label 7975 1975 0    50   ~ 0
-LED4
+LED3
 Wire Wire Line
 	7975 1975 8225 1975
 Text Label 7975 2075 0    50   ~ 0
-LED5
+LED4
 Wire Wire Line
 	7975 2075 8225 2075
 Text Label 7975 2175 0    50   ~ 0
-LED6
+LED5
 Wire Wire Line
 	7975 2175 8225 2175
 Text Label 7975 2275 0    50   ~ 0
-LED7
+LED6
 Wire Wire Line
 	7975 2275 8225 2275
+Text Label 7975 2375 0    50   ~ 0
+LED7
+Wire Wire Line
+	7975 2375 8225 2375
 $Comp
 L power:GND #PWR09
 U 1 1 5CB4FFC7
@@ -540,30 +540,30 @@ Wire Wire Line
 	5800 3250 5800 3050
 Text Label 5800 3200 1    50   ~ 0
 SW5
-Text Label 7975 3175 0    50   ~ 0
+Text Label 7975 2475 0    50   ~ 0
 SW0
 Wire Wire Line
-	7975 3175 8225 3175
-Text Label 7975 3275 0    50   ~ 0
+	7975 2475 8225 2475
+Text Label 7975 2575 0    50   ~ 0
 SW1
 Wire Wire Line
-	7975 3275 8225 3275
-Text Label 7975 3375 0    50   ~ 0
+	7975 2575 8225 2575
+Text Label 7975 2675 0    50   ~ 0
 SW2
 Wire Wire Line
-	7975 3375 8225 3375
-Text Label 7975 3475 0    50   ~ 0
+	7975 2675 8225 2675
+Text Label 7975 2775 0    50   ~ 0
 SW3
 Wire Wire Line
-	7975 3475 8225 3475
-Text Label 7975 3575 0    50   ~ 0
+	7975 2775 8225 2775
+Text Label 7975 2875 0    50   ~ 0
 SW4
 Wire Wire Line
-	7975 3575 8225 3575
-Text Label 7975 3675 0    50   ~ 0
+	7975 2875 8225 2875
+Text Label 7975 2975 0    50   ~ 0
 SW5
 Wire Wire Line
-	7975 3675 8225 3675
+	7975 2975 8225 2975
 $Comp
 L power:+3V3 #PWR037
 U 1 1 5CCC23D1
@@ -616,10 +616,10 @@ F 3 "" H 5800 2675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 2675 5800 2750
-Text GLabel 8125 4175 0    39   Output ~ 0
+Text GLabel 8125 1575 0    39   Output ~ 0
 ~SRAM_CE~
 Wire Wire Line
-	8125 4175 8225 4175
+	8125 1575 8225 1575
 $Comp
 L Device:C C21
 U 1 1 5CC06EC3
@@ -913,4 +913,36 @@ Wire Wire Line
 	3150 3250 3150 3225
 Wire Wire Line
 	3150 3225 3225 3225
+Wire Wire Line
+	8000 3475 8225 3475
+Wire Wire Line
+	8000 3575 8225 3575
+Wire Wire Line
+	8000 3675 8225 3675
+Wire Wire Line
+	8000 3775 8225 3775
+Wire Wire Line
+	8000 3875 8225 3875
+Wire Wire Line
+	8000 3975 8225 3975
+Wire Wire Line
+	8000 4075 8225 4075
+Wire Wire Line
+	8000 4175 8225 4175
+Text GLabel 8000 3475 0    50   BiDi ~ 0
+P1_1
+Text GLabel 8000 3575 0    50   BiDi ~ 0
+P2_1
+Text GLabel 8000 3675 0    50   BiDi ~ 0
+P3_1
+Text GLabel 8000 3775 0    50   BiDi ~ 0
+P4_1
+Text GLabel 8000 3875 0    50   BiDi ~ 0
+P7_1
+Text GLabel 8000 3975 0    50   BiDi ~ 0
+P8_1
+Text GLabel 8000 4075 0    50   BiDi ~ 0
+P9_1
+Text GLabel 8000 4175 0    50   BiDi ~ 0
+P10_1
 $EndSCHEMATC
