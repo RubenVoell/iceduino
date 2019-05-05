@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V_USB
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP +3V3_USB
+D Power flag
+K power-flag
+$ENDCMP
+#
+#End Doc Library

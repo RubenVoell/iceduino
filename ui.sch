@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ice40hx4k:ICE40HX4K-TQ144 U1
-U 2 1 5CAB837C
-P 8425 2875
-F 0 "U1" H 8425 1400 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 8625 4325 50  0000 L CNN
-F 2 "" H 8425 2875 50  0001 C CNN
-F 3 "" H 8425 2875 50  0001 C CNN
-	2    8425 2875
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW3
 U 1 1 5CB105B8
 P 3150 3450
@@ -398,38 +387,6 @@ Text Label 4200 950  3    50   ~ 0
 LED7
 Wire Wire Line
 	4200 950  4200 1200
-Text Label 7975 1675 0    50   ~ 0
-LED0
-Wire Wire Line
-	7975 1675 8225 1675
-Text Label 7975 1775 0    50   ~ 0
-LED1
-Wire Wire Line
-	7975 1775 8225 1775
-Text Label 7975 1875 0    50   ~ 0
-LED2
-Wire Wire Line
-	7975 1875 8225 1875
-Text Label 7975 1975 0    50   ~ 0
-LED3
-Wire Wire Line
-	7975 1975 8225 1975
-Text Label 7975 2075 0    50   ~ 0
-LED4
-Wire Wire Line
-	7975 2075 8225 2075
-Text Label 7975 2175 0    50   ~ 0
-LED5
-Wire Wire Line
-	7975 2175 8225 2175
-Text Label 7975 2275 0    50   ~ 0
-LED6
-Wire Wire Line
-	7975 2275 8225 2275
-Text Label 7975 2375 0    50   ~ 0
-LED7
-Wire Wire Line
-	7975 2375 8225 2375
 $Comp
 L power:GND #PWR09
 U 1 1 5CB4FFC7
@@ -540,30 +497,6 @@ Wire Wire Line
 	5800 3250 5800 3050
 Text Label 5800 3200 1    50   ~ 0
 SW5
-Text Label 7975 2475 0    50   ~ 0
-SW0
-Wire Wire Line
-	7975 2475 8225 2475
-Text Label 7975 2575 0    50   ~ 0
-SW1
-Wire Wire Line
-	7975 2575 8225 2575
-Text Label 7975 2675 0    50   ~ 0
-SW2
-Wire Wire Line
-	7975 2675 8225 2675
-Text Label 7975 2775 0    50   ~ 0
-SW3
-Wire Wire Line
-	7975 2775 8225 2775
-Text Label 7975 2875 0    50   ~ 0
-SW4
-Wire Wire Line
-	7975 2875 8225 2875
-Text Label 7975 2975 0    50   ~ 0
-SW5
-Wire Wire Line
-	7975 2975 8225 2975
 $Comp
 L power:+3V3 #PWR037
 U 1 1 5CCC23D1
@@ -616,10 +549,6 @@ F 3 "" H 5800 2675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 2675 5800 2750
-Text GLabel 8125 1575 0    39   Output ~ 0
-~SRAM_CE~
-Wire Wire Line
-	8125 1575 8225 1575
 $Comp
 L Device:C C21
 U 1 1 5CC06EC3
@@ -913,36 +842,326 @@ Wire Wire Line
 	3150 3250 3150 3225
 Wire Wire Line
 	3150 3225 3225 3225
+$Comp
+L sw_dpdt:SW_DPDT SW?
+U 1 1 5E39AE94
+P 1275 5425
+AR Path="/5CA8FBC7/5E39AE94" Ref="SW?"  Part="1" 
+AR Path="/5CAB7CD4/5E39AE94" Ref="SW8"  Part="1" 
+F 0 "SW8" H 1275 5910 50  0000 C CNN
+F 1 "JS202011SCQN" H 1275 5819 50  0000 C CNN
+F 2 "footprints:SW_SLIDE_DPDT_Slide_CK_JS202011SCQN_W3mm_P2.5mm_footprint" H 1275 5625 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 1275 5625 50  0001 C CNN
+F 4 "C&K" H 1275 5425 50  0001 C CNN "Mfg Name"
+F 5 "JS202011SCQN" H 1275 5425 50  0001 C CNN "Mfg Part Num"
+F 6 "401-2002-1-ND" H 1275 5425 50  0001 C CNN "Digikey"
+F 7 "SWITCH SLIDE DPDT 300MA 6V" H 1275 5425 50  0001 C CNN "Description"
+	1    1275 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 5E39D5CC
+P 1950 4775
+F 0 "R50" H 2020 4821 50  0000 L CNN
+F 1 "4,7k" H 2020 4730 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 4775 50  0001 C CNN
+F 3 "~" H 1950 4775 50  0001 C CNN
+	1    1950 4775
+	1    0    0    -1  
+$EndComp
+Text Label 1950 5075 1    50   ~ 0
+SW6
+$Comp
+L power:+3V3 #PWR093
+U 1 1 5E39D5D7
+P 1950 4550
+F 0 "#PWR093" H 1950 4400 50  0001 C CNN
+F 1 "+3V3" H 1965 4723 50  0000 C CNN
+F 2 "" H 1950 4550 50  0001 C CNN
+F 3 "" H 1950 4550 50  0001 C CNN
+	1    1950 4550
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8000 3475 8225 3475
+	1950 4550 1950 4625
+$Comp
+L Device:C C42
+U 1 1 5E39D5E2
+P 1950 5375
+F 0 "C42" H 2065 5421 50  0000 L CNN
+F 1 "100nF" H 2065 5330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 5225 50  0001 C CNN
+F 3 "~" H 1950 5375 50  0001 C CNN
+	1    1950 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5E39D5EC
+P 1950 5750
+F 0 "#PWR0118" H 1950 5500 50  0001 C CNN
+F 1 "GND" H 1955 5577 50  0000 C CNN
+F 2 "" H 1950 5750 50  0001 C CNN
+F 3 "" H 1950 5750 50  0001 C CNN
+	1    1950 5750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8000 3575 8225 3575
+	1950 5750 1950 5525
 Wire Wire Line
-	8000 3675 8225 3675
+	1950 4925 1950 5125
+$Comp
+L Device:R R56
+U 1 1 5E39D5F8
+P 1750 5125
+F 0 "R56" H 1820 5171 50  0000 L CNN
+F 1 "470" H 1820 5080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 5125 50  0001 C CNN
+F 3 "~" H 1750 5125 50  0001 C CNN
+	1    1750 5125
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	8000 3775 8225 3775
+	1900 5125 1950 5125
+Connection ~ 1950 5125
 Wire Wire Line
-	8000 3875 8225 3875
+	1950 5125 1950 5225
+$Comp
+L power:GND #PWR099
+U 1 1 5E3A7C09
+P 950 5750
+F 0 "#PWR099" H 950 5500 50  0001 C CNN
+F 1 "GND" H 955 5577 50  0000 C CNN
+F 2 "" H 950 5750 50  0001 C CNN
+F 3 "" H 950 5750 50  0001 C CNN
+	1    950  5750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8000 3975 8225 3975
+	1075 5225 950  5225
 Wire Wire Line
-	8000 4075 8225 4075
+	1600 5125 1475 5125
 Wire Wire Line
-	8000 4175 8225 4175
-Text GLabel 8000 3475 0    50   BiDi ~ 0
-P1_1
-Text GLabel 8000 3575 0    50   BiDi ~ 0
-P2_1
-Text GLabel 8000 3675 0    50   BiDi ~ 0
-P3_1
-Text GLabel 8000 3775 0    50   BiDi ~ 0
-P4_1
-Text GLabel 8000 3875 0    50   BiDi ~ 0
-P7_1
-Text GLabel 8000 3975 0    50   BiDi ~ 0
-P8_1
-Text GLabel 8000 4075 0    50   BiDi ~ 0
-P9_1
-Text GLabel 8000 4175 0    50   BiDi ~ 0
+	950  5225 950  5750
+$Comp
+L sw_dpdt:SW_DPDT SW?
+U 1 1 5E3BC903
+P 2750 5450
+AR Path="/5CA8FBC7/5E3BC903" Ref="SW?"  Part="1" 
+AR Path="/5CAB7CD4/5E3BC903" Ref="SW9"  Part="1" 
+F 0 "SW9" H 2750 5935 50  0000 C CNN
+F 1 "JS202011SCQN" H 2750 5844 50  0000 C CNN
+F 2 "footprints:SW_SLIDE_DPDT_Slide_CK_JS202011SCQN_W3mm_P2.5mm_footprint" H 2750 5650 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2750 5650 50  0001 C CNN
+F 4 "C&K" H 2750 5450 50  0001 C CNN "Mfg Name"
+F 5 "JS202011SCQN" H 2750 5450 50  0001 C CNN "Mfg Part Num"
+F 6 "401-2002-1-ND" H 2750 5450 50  0001 C CNN "Digikey"
+F 7 "SWITCH SLIDE DPDT 300MA 6V" H 2750 5450 50  0001 C CNN "Description"
+	1    2750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R51
+U 1 1 5E3BC90D
+P 3425 4800
+F 0 "R51" H 3495 4846 50  0000 L CNN
+F 1 "4,7k" H 3495 4755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3355 4800 50  0001 C CNN
+F 3 "~" H 3425 4800 50  0001 C CNN
+	1    3425 4800
+	1    0    0    -1  
+$EndComp
+Text Label 3425 5100 1    50   ~ 0
+SW7
+$Comp
+L power:+3V3 #PWR097
+U 1 1 5E3BC918
+P 3425 4575
+F 0 "#PWR097" H 3425 4425 50  0001 C CNN
+F 1 "+3V3" H 3440 4748 50  0000 C CNN
+F 2 "" H 3425 4575 50  0001 C CNN
+F 3 "" H 3425 4575 50  0001 C CNN
+	1    3425 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 4575 3425 4650
+$Comp
+L Device:C C74
+U 1 1 5E3BC923
+P 3425 5400
+F 0 "C74" H 3540 5446 50  0000 L CNN
+F 1 "100nF" H 3540 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3463 5250 50  0001 C CNN
+F 3 "~" H 3425 5400 50  0001 C CNN
+	1    3425 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0166
+U 1 1 5E3BC92D
+P 3425 5775
+F 0 "#PWR0166" H 3425 5525 50  0001 C CNN
+F 1 "GND" H 3430 5602 50  0000 C CNN
+F 2 "" H 3425 5775 50  0001 C CNN
+F 3 "" H 3425 5775 50  0001 C CNN
+	1    3425 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 5775 3425 5550
+Wire Wire Line
+	3425 4950 3425 5150
+$Comp
+L Device:R R57
+U 1 1 5E3BC939
+P 3225 5150
+F 0 "R57" H 3295 5196 50  0000 L CNN
+F 1 "470" H 3295 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3155 5150 50  0001 C CNN
+F 3 "~" H 3225 5150 50  0001 C CNN
+	1    3225 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3375 5150 3425 5150
+Connection ~ 3425 5150
+Wire Wire Line
+	3425 5150 3425 5250
+$Comp
+L power:GND #PWR0119
+U 1 1 5E3BC946
+P 2425 5775
+F 0 "#PWR0119" H 2425 5525 50  0001 C CNN
+F 1 "GND" H 2430 5602 50  0000 C CNN
+F 2 "" H 2425 5775 50  0001 C CNN
+F 3 "" H 2425 5775 50  0001 C CNN
+	1    2425 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5250 2425 5250
+Wire Wire Line
+	3075 5150 2950 5150
+Wire Wire Line
+	2425 5250 2425 5775
+NoConn ~ 2950 5350
+NoConn ~ 2550 5650
+NoConn ~ 2950 5550
+NoConn ~ 2950 5750
+NoConn ~ 1075 5625
+NoConn ~ 1475 5725
+NoConn ~ 1475 5525
+NoConn ~ 1475 5325
+Wire Wire Line
+	8000 3250 8250 3250
+Text Label 8000 3250 0    50   ~ 0
+SW7
+Wire Wire Line
+	8000 3150 8250 3150
+Text Label 8000 3150 0    50   ~ 0
+SW6
+Text GLabel 8025 4150 0    50   BiDi ~ 0
 P10_1
+Text GLabel 8025 4050 0    50   BiDi ~ 0
+P9_1
+Text GLabel 8025 3950 0    50   BiDi ~ 0
+P8_1
+Text GLabel 8025 3850 0    50   BiDi ~ 0
+P7_1
+Text GLabel 8025 3750 0    50   BiDi ~ 0
+P4_1
+Text GLabel 8025 3650 0    50   BiDi ~ 0
+P3_1
+Text GLabel 8025 3550 0    50   BiDi ~ 0
+P2_1
+Text GLabel 8025 3450 0    50   BiDi ~ 0
+P1_1
+Wire Wire Line
+	8025 4150 8250 4150
+Wire Wire Line
+	8025 4050 8250 4050
+Wire Wire Line
+	8025 3950 8250 3950
+Wire Wire Line
+	8025 3850 8250 3850
+Wire Wire Line
+	8025 3750 8250 3750
+Wire Wire Line
+	8025 3650 8250 3650
+Wire Wire Line
+	8025 3550 8250 3550
+Wire Wire Line
+	8025 3450 8250 3450
+Wire Wire Line
+	8150 1550 8250 1550
+Text GLabel 8150 1550 0    39   Output ~ 0
+~SRAM_CE~
+Wire Wire Line
+	8000 3050 8250 3050
+Text Label 8000 3050 0    50   ~ 0
+SW5
+Wire Wire Line
+	8000 2950 8250 2950
+Text Label 8000 2950 0    50   ~ 0
+SW4
+Wire Wire Line
+	8000 2850 8250 2850
+Text Label 8000 2850 0    50   ~ 0
+SW3
+Wire Wire Line
+	8000 2750 8250 2750
+Text Label 8000 2750 0    50   ~ 0
+SW2
+Wire Wire Line
+	8000 2650 8250 2650
+Text Label 8000 2650 0    50   ~ 0
+SW1
+Wire Wire Line
+	8000 2350 8250 2350
+Text Label 8000 2350 0    50   ~ 0
+LED7
+Wire Wire Line
+	8000 2250 8250 2250
+Text Label 8000 2250 0    50   ~ 0
+LED6
+Wire Wire Line
+	8000 2150 8250 2150
+Text Label 8000 2150 0    50   ~ 0
+LED5
+Wire Wire Line
+	8000 2050 8250 2050
+Text Label 8000 2050 0    50   ~ 0
+LED4
+Wire Wire Line
+	8000 1950 8250 1950
+Text Label 8000 1950 0    50   ~ 0
+LED3
+Wire Wire Line
+	8000 1850 8250 1850
+Text Label 8000 1850 0    50   ~ 0
+LED2
+Wire Wire Line
+	8000 1750 8250 1750
+Text Label 8000 1750 0    50   ~ 0
+LED1
+Wire Wire Line
+	8000 1650 8250 1650
+Text Label 8000 1650 0    50   ~ 0
+LED0
+$Comp
+L ice40hx4k:ICE40HX4K-TQ144 U1
+U 2 1 5CAB837C
+P 8450 2850
+F 0 "U1" H 8450 1375 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 8650 4300 50  0000 L CNN
+F 2 "" H 8450 2850 50  0001 C CNN
+F 3 "" H 8450 2850 50  0001 C CNN
+	2    8450 2850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8250 2450
+NoConn ~ 8250 3350
+NoConn ~ 8250 2550
 $EndSCHEMATC

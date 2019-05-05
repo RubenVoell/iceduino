@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TXB0108PWR
+D Voltage Level Translator Bidirectional 1 Circuit 8 Channel 100Mbps 20-TSSOP
+K IC TRNSLTR BIDIRECTIONAL 20TSSOP
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
+#End Doc Library

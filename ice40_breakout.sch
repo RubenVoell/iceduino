@@ -15,13 +15,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4075 4550 1425 1700
+S 4100 4200 1425 1700
 U 5CA8FBC7
 F0 "power" 50
 F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 5800 775  975  1500
+S 5800 775  1325 1500
 U 5CAB7CD4
 F0 "User Interface" 50
 F1 "ui.sch" 50
@@ -87,7 +87,7 @@ Wire Notes Line
 Wire Notes Line
 	7300 5300 7300 5175
 $Sheet
-S 6700 4125 1500 1725
+S 6700 4125 2675 1775
 U 5CAB8B22
 F0 "USB Programmer" 50
 F1 "progammer.sch" 50
@@ -153,4 +153,13 @@ F 3 "~" H 1400 2375 50  0001 C CNN
 	1    1400 2375
 	1    0    0    -1  
 $EndComp
+Text Notes 7675 3400 0    197  ~ 39
+4 MBit\nSRAM
+Text Notes 4150 3050 0    197  ~ 39
+Arduino\nPMOD
+Text Notes 5850 1400 0    197  ~ 39
+Buttons\nLEDs
+Text Notes 7675 5100 0    197  ~ 39
+FT2232H +\n8 MBit\nFlash
+NoConn ~ 3325 7575
 $EndSCHEMATC

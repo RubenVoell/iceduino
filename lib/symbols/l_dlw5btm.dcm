@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L_DLW5BTM
+D Coupled inductor with Ferrite Core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+#End Doc Library

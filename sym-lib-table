@@ -7,4 +7,8 @@
   (lib (name TLV62568APDRLR)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/TLV62568APDRLR.lib)(options "")(descr ""))
   (lib (name AOZ8904CIL)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/AOZ8904CIL.lib)(options "")(descr ""))
   (lib (name ECS-3225S)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/ECS-3225S.lib)(options "")(descr ""))
+  (lib (name power_symbols)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/power_symbols.lib)(options "")(descr ""))
+  (lib (name TXB018PWR)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/TXB018PWR.lib)(options "")(descr ""))
+  (lib (name l_dlw5btm)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/l_dlw5btm.lib)(options "")(descr ""))
+  (lib (name sw_dpdt)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/sw_dpdt.lib)(options "")(descr ""))
 )
