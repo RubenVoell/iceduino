@@ -1,4 +1,4 @@
-update=Mo 06 Mai 2019 00:34:31 CEST
+update=Mo 06 Mai 2019 22:07:39 CEST
 version=1
 last_client=kicad
 [general]
@@ -30,7 +30,8 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.15
 TrackWidth2=0.15
-TrackWidth3=0.5
+TrackWidth3=0.25
+TrackWidth4=0.5
 ViaDiameter1=0.6
 ViaDrill1=0.3
 dPairWidth1=0.2
@@ -71,6 +72,17 @@ Type=1
 Name=USB_PWR
 Clearance=0.2
 TrackWidth=0.4
+ViaDiameter=0.6
+ViaDrill=0.3
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=V_IN
+Clearance=0.2
+TrackWidth=1
 ViaDiameter=0.6
 ViaDrill=0.3
 uViaDiameter=0.3

@@ -1371,21 +1371,6 @@ Wire Wire Line
 	1725 1075 2000 1075
 Connection ~ 1725 1075
 $Comp
-L l_dlw5btm:L_DLW5BTM L3
-U 1 1 5CE854C4
-P 3625 1350
-F 0 "L3" H 3625 1631 50  0000 C CNN
-F 1 "L_DLW5BTM" H 3625 1540 50  0000 C CNN
-F 2 "footprints:DLW5BTM_5.00x5.00mm_footprint" H 3625 1350 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796761587742/EFLC0025.pdf" H 3625 1350 50  0001 C CNN
-F 4 "Murata Electronics North America" H 3625 1350 50  0001 C CNN "Mfg Name"
-F 5 "DLW5BTM251SQ2L" H 3625 1350 50  0001 C CNN "Mfg Part Num"
-F 6 "490-11111-1-ND" H 3625 1350 50  0001 C CNN "Digikey"
-F 7 "CMC 5A 2LN 250 OHM SMD" H 3625 1350 50  0001 C CNN "Description"
-	1    3625 1350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C43
 U 1 1 5CE8684B
 P 4450 3425
@@ -2064,4 +2049,25 @@ Wire Wire Line
 Wire Wire Line
 	3825 1450 3975 1450
 Connection ~ 4225 1625
+Text Label 2475 1075 0    50   ~ 0
+V_IN_FILTERED
+Text Label 2400 1600 0    50   ~ 0
+GND_IN_FILTERED
+Text Label 4000 1075 0    50   ~ 0
+V_IN_CHOKE
+$Comp
+L l_dlw5btm:L_DLW5BTM L3
+U 1 1 5CE854C4
+P 3625 1350
+F 0 "L3" H 3625 1631 50  0000 C CNN
+F 1 "L_DLW5BTM" H 3625 1540 50  0000 C CNN
+F 2 "footprints:DLW5BTM_5.00x5.00mm_footprint" H 3625 1350 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796761587742/EFLC0025.pdf" H 3625 1350 50  0001 C CNN
+F 4 "Murata Electronics North America" H 3625 1350 50  0001 C CNN "Mfg Name"
+F 5 "DLW5BTM251SQ2L" H 3625 1350 50  0001 C CNN "Mfg Part Num"
+F 6 "490-11111-1-ND" H 3625 1350 50  0001 C CNN "Digikey"
+F 7 "CMC 5A 2LN 250 OHM SMD" H 3625 1350 50  0001 C CNN "Description"
+	1    3625 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
