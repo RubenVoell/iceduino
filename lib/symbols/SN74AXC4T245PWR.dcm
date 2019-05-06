@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74AXC4T245PWR
+D Translator Circuit Channel 16-TSSOP
+F http://www.ti.com/lit/ds/symlink/sn74axc4t245.pdf
+$ENDCMP
+#
+#End Doc Library

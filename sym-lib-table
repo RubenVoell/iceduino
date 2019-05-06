@@ -11,4 +11,5 @@
   (lib (name TXB018PWR)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/TXB018PWR.lib)(options "")(descr ""))
   (lib (name l_dlw5btm)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/l_dlw5btm.lib)(options "")(descr ""))
   (lib (name sw_dpdt)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/sw_dpdt.lib)(options "")(descr ""))
+  (lib (name SN74AXC4T245PWR)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/SN74AXC4T245PWR.lib)(options "")(descr ""))
 )
