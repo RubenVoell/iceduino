@@ -746,12 +746,12 @@ NoConn ~ 6025 6125
 NoConn ~ 6025 6225
 NoConn ~ 6025 6325
 NoConn ~ 6025 7225
-Text Label 9425 4850 2    50   ~ 0
+Text Label 9575 4950 2    50   ~ 0
 MOSI
-Text Label 9425 4750 2    50   ~ 0
+Text Label 9575 5050 2    50   ~ 0
 SCK
 Wire Wire Line
-	9425 4750 9100 4750
+	9575 5050 9100 5050
 $Comp
 L Device:R R43
 U 1 1 5CD40B26
@@ -856,34 +856,22 @@ Text Label 14550 7475 1    50   ~ 0
 SCK
 Wire Wire Line
 	14550 7475 14550 7325
-Text GLabel 9250 6750 2    39   Output ~ 0
-TXD
-Text GLabel 9275 8475 2    39   Input ~ 0
-RXD
 Text GLabel 9250 6950 2    39   Output ~ 0
-~RTS~
+TXD
 Text GLabel 9275 8675 2    39   Input ~ 0
-~CTS~
-Text GLabel 11425 6775 2    39   Output ~ 0
+RXD
+Text GLabel 9250 6750 2    39   Output ~ 0
+~RTS~
+Text GLabel 11425 6975 2    39   Output ~ 0
 ~DTR~
-Text GLabel 11375 8400 2    39   Input ~ 0
-~DSR~
-Text GLabel 11375 8600 2    39   Input ~ 0
-~DCD~
-Wire Wire Line
-	9125 6750 9250 6750
-Wire Wire Line
-	9275 8475 9150 8475
 Wire Wire Line
 	9125 6950 9250 6950
 Wire Wire Line
 	9275 8675 9150 8675
 Wire Wire Line
-	11300 6775 11425 6775
+	9125 6750 9250 6750
 Wire Wire Line
-	11375 8400 11250 8400
-Wire Wire Line
-	11250 8600 11375 8600
+	11300 6975 11425 6975
 $Comp
 L Device:LED_ALT D?
 U 1 1 5CEEBF1D
@@ -950,11 +938,11 @@ Wire Wire Line
 	6125 7825 6025 7825
 Text Notes 11675 9025 1    50   ~ 0
 Bank 2(Header Sheet)
-Text GLabel 9625 5050 2    39   Output ~ 0
+Text GLabel 9650 4750 2    39   Output ~ 0
 CRESET_B
 Wire Wire Line
-	9625 5050 9475 5050
-Text GLabel 11425 6975 2    50   Output ~ 0
+	9650 4750 9500 4750
+Text GLabel 11425 6775 2    50   Output ~ 0
 ICE_CLK_12M
 $Comp
 L power_symbols:+3V3_USB #PWR090
@@ -1278,7 +1266,7 @@ Wire Wire Line
 Wire Wire Line
 	6025 7125 6475 7125
 Wire Wire Line
-	11425 6975 11300 6975
+	11425 6775 11300 6775
 Text Label 3450 8575 2    50   ~ 0
 12_MHZ
 $Comp
@@ -2141,22 +2129,22 @@ F 3 "" H 11300 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11300 5500 11300 5450
-Text Label 7650 4750 0    50   ~ 0
+Text Label 7650 5050 0    50   ~ 0
 FTDI_SCK
-Text Label 7650 4850 0    50   ~ 0
+Text Label 7650 4950 0    50   ~ 0
 FTDI_MOSI
 Wire Wire Line
-	7650 4750 8250 4750
+	7650 5050 8250 5050
 Wire Wire Line
-	8250 4850 7650 4850
+	8250 4950 7650 4950
 Wire Wire Line
-	12025 4800 11700 4800
-Text Label 12025 4800 2    50   ~ 0
+	12025 5000 11700 5000
+Text Label 12025 5000 2    50   ~ 0
 MISO
-Text Label 10300 4800 0    50   ~ 0
+Text Label 10300 5000 0    50   ~ 0
 FTDI_MISO
 Wire Wire Line
-	10300 4800 10900 4800
+	10300 5000 10900 5000
 Wire Wire Line
 	11200 4300 11200 4400
 $Comp
@@ -2240,18 +2228,18 @@ Wire Wire Line
 Connection ~ 8125 5250
 Wire Wire Line
 	8125 5250 8125 5300
-Text Label 7650 4950 0    50   ~ 0
+Text Label 7650 4850 0    50   ~ 0
 FTDI_SS
-Text Label 9425 4950 2    50   ~ 0
+Text Label 9575 4850 2    50   ~ 0
 SS
 Wire Wire Line
-	9425 4950 9100 4950
+	9575 4850 9100 4850
 Wire Wire Line
-	9100 4850 9425 4850
-Text Label 7650 5050 0    50   ~ 0
+	9100 4950 9575 4950
+Text Label 7650 4750 0    50   ~ 0
 FTDI_CRESET_B
 Wire Wire Line
-	7650 5050 8250 5050
+	7650 4750 8250 4750
 $Comp
 L Device:R R58
 U 1 1 5F7195AF
@@ -2348,9 +2336,7 @@ Connection ~ 8050 4600
 Wire Wire Line
 	7575 4600 7475 4600
 Wire Wire Line
-	7475 4600 7475 4950
-Wire Wire Line
-	7475 4950 8250 4950
+	7475 4850 8250 4850
 $Comp
 L Device:D_ALT D?
 U 1 1 5F8A5808
@@ -2371,22 +2357,22 @@ $EndComp
 $Comp
 L Device:D_ALT D?
 U 1 1 5F95FFD7
-P 9325 5050
+P 9350 4750
 AR Path="/5CA8FBC7/5F95FFD7" Ref="D?"  Part="1" 
 AR Path="/5CAB8B22/5F95FFD7" Ref="D16"  Part="1" 
-F 0 "D16" H 9325 4926 50  0000 C CNN
-F 1 "CDBU5020" H 9325 4835 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 9325 5050 50  0001 C CNN
-F 3 "http://www.comchiptech.com/admin/files/product/CDBU0520-HF-RevA797161.pdf" H 9325 5050 50  0001 C CNN
-F 4 "Comchip Technology" H 9325 5050 50  0001 C CNN "Mfg Name"
-F 5 "CDBU0520" H 9325 5050 50  0001 C CNN "Mfg Part Num"
-F 6 "641-1332-1-ND" H 9325 5050 50  0001 C CNN "Digikey"
-F 7 "DIODE SCHOTTKY 20V 500MA 0603" H 9325 5050 50  0001 C CNN "Description"
-	1    9325 5050
+F 0 "D16" H 9350 4966 50  0000 C CNN
+F 1 "CDBU5020" H 9350 4875 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9350 4750 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/CDBU0520-HF-RevA797161.pdf" H 9350 4750 50  0001 C CNN
+F 4 "Comchip Technology" H 9350 4750 50  0001 C CNN "Mfg Name"
+F 5 "CDBU0520" H 9350 4750 50  0001 C CNN "Mfg Part Num"
+F 6 "641-1332-1-ND" H 9350 4750 50  0001 C CNN "Digikey"
+F 7 "DIODE SCHOTTKY 20V 500MA 0603" H 9350 4750 50  0001 C CNN "Description"
+	1    9350 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9175 5050 9100 5050
+	9200 4750 9100 4750
 Wire Wire Line
 	10900 5200 10775 5200
 Wire Wire Line
@@ -2396,14 +2382,10 @@ Wire Wire Line
 Connection ~ 11300 5450
 Wire Wire Line
 	11300 5450 11300 5400
-Text Label 10300 5000 0    50   ~ 0
+Text Label 10300 4800 0    50   ~ 0
 FTDI_CDONE
 Wire Wire Line
-	10300 5000 10900 5000
-Text GLabel 11800 5000 2    39   Input ~ 0
-CDONE
-Wire Wire Line
-	11800 5000 11700 5000
+	10300 4800 10900 4800
 Text Label 6475 6525 2    50   ~ 0
 FTDI_TXD
 Text Label 6475 6625 2    50   ~ 0
@@ -2473,13 +2455,9 @@ Wire Wire Line
 Wire Wire Line
 	8725 7350 8725 7450
 Wire Wire Line
-	8325 6750 7875 6750
-Text Label 7875 6750 0    50   ~ 0
-FTDI_TXD
-Wire Wire Line
 	8325 6950 7875 6950
 Text Label 7875 6950 0    50   ~ 0
-~FTDI_RTS~
+FTDI_TXD
 $Comp
 L power_symbols:+3V3_USB #PWR0177
 U 1 1 5FF9350A
@@ -2560,13 +2538,9 @@ F 3 "" H 10250 7175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10250 7175 10500 7175
+Wire Wire Line
+	10500 6975 10050 6975
 Text Label 10050 6975 0    50   ~ 0
-12_MHZ
-Wire Wire Line
-	10050 6975 10500 6975
-Wire Wire Line
-	10500 6775 10050 6775
-Text Label 10050 6775 0    50   ~ 0
 ~FTDI_DTR~
 $Comp
 L Logic_LevelTranslator:SN74LVC2T45DCUR U19
@@ -2632,12 +2606,12 @@ Connection ~ 8750 9125
 Wire Wire Line
 	8750 9125 8750 9075
 Wire Wire Line
-	8350 8475 7900 8475
-Text Label 7900 8475 0    50   ~ 0
-FTDI_RXD
-Wire Wire Line
 	8350 8675 7900 8675
 Text Label 7900 8675 0    50   ~ 0
+FTDI_RXD
+Wire Wire Line
+	8350 8475 7900 8475
+Text Label 7900 8475 0    50   ~ 0
 ~FTDI_CTS~
 $Comp
 L Logic_LevelTranslator:SN74LVC2T45DCUR U18
@@ -2703,12 +2677,12 @@ Connection ~ 10850 9050
 Wire Wire Line
 	10850 9050 10850 9000
 Wire Wire Line
-	10450 8400 10000 8400
-Text Label 10000 8400 0    50   ~ 0
-~FTDI_DSR~
-Wire Wire Line
 	10450 8600 10000 8600
 Text Label 10000 8600 0    50   ~ 0
+~FTDI_DSR~
+Wire Wire Line
+	10450 8400 10000 8400
+Text Label 10000 8400 0    50   ~ 0
 ~FTDI_DCD~
 $Comp
 L Device:C C?
@@ -2902,4 +2876,30 @@ Wire Notes Line
 	4725 10925 4725 9875
 Wire Notes Line
 	4725 9875 11400 9875
+Text GLabel 11800 4800 2    39   Input ~ 0
+CDONE
+Wire Wire Line
+	11800 4800 11700 4800
+Text Label 7875 6750 0    50   ~ 0
+~FTDI_RTS~
+Wire Wire Line
+	8325 6750 7875 6750
+Wire Wire Line
+	10050 6775 10500 6775
+Text Label 10050 6775 0    50   ~ 0
+12_MHZ
+Text GLabel 9275 8475 2    39   Input ~ 0
+~CTS~
+Wire Wire Line
+	9275 8475 9150 8475
+Text GLabel 11375 8600 2    39   Input ~ 0
+~DSR~
+Wire Wire Line
+	11375 8600 11250 8600
+Text GLabel 11375 8400 2    39   Input ~ 0
+~DCD~
+Wire Wire Line
+	11250 8400 11375 8400
+Wire Wire Line
+	7475 4850 7475 4600
 $EndSCHEMATC
