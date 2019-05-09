@@ -121,62 +121,62 @@ Text Label 3025 2650 0    50   ~ 0
 A4
 Wire Wire Line
 	3025 2650 3225 2650
-Text Label 3025 2750 0    50   ~ 0
+Text Label 3025 4650 0    50   ~ 0
 A5
 Wire Wire Line
-	3025 2750 3225 2750
-Text Label 3025 2850 0    50   ~ 0
+	3025 4650 3225 4650
+Text Label 3025 4750 0    50   ~ 0
 A6
 Wire Wire Line
-	3025 2850 3225 2850
-Text Label 3025 2950 0    50   ~ 0
+	3025 4750 3225 4750
+Text Label 3025 4850 0    50   ~ 0
 A7
 Wire Wire Line
-	3025 2950 3225 2950
-Text Label 3025 3050 0    50   ~ 0
+	3025 4850 3225 4850
+Text Label 3025 4950 0    50   ~ 0
 A8
 Wire Wire Line
-	3025 3050 3225 3050
-Text Label 3025 3150 0    50   ~ 0
+	3025 4950 3225 4950
+Text Label 3025 5050 0    50   ~ 0
 A9
 Wire Wire Line
-	3025 3150 3225 3150
-Text Label 3025 3250 0    50   ~ 0
+	3025 5050 3225 5050
+Text Label 3025 4550 0    50   ~ 0
 A10
 Wire Wire Line
-	3025 3250 3225 3250
-Text Label 3025 3350 0    50   ~ 0
+	3025 4550 3225 4550
+Text Label 3025 4450 0    50   ~ 0
 A11
 Wire Wire Line
-	3025 3350 3225 3350
-Text Label 3025 3450 0    50   ~ 0
+	3025 4450 3225 4450
+Text Label 3025 4350 0    50   ~ 0
 A12
 Wire Wire Line
-	3025 3450 3225 3450
-Text Label 3025 3550 0    50   ~ 0
+	3025 4350 3225 4350
+Text Label 3025 4250 0    50   ~ 0
 A13
 Wire Wire Line
-	3025 3550 3225 3550
-Text Label 3025 3650 0    50   ~ 0
+	3025 4250 3225 4250
+Text Label 3025 4150 0    50   ~ 0
 A14
 Wire Wire Line
-	3025 3650 3225 3650
-Text Label 3025 3750 0    50   ~ 0
+	3025 4150 3225 4150
+Text Label 3025 3350 0    50   ~ 0
 A15
 Wire Wire Line
-	3025 3750 3225 3750
-Text Label 3025 3850 0    50   ~ 0
+	3025 3350 3225 3350
+Text Label 3025 3150 0    50   ~ 0
 A16
 Wire Wire Line
-	3025 3850 3225 3850
-Text Label 3025 3950 0    50   ~ 0
+	3025 3150 3225 3150
+Text Label 3025 2950 0    50   ~ 0
 A17
 Wire Wire Line
-	3025 3950 3225 3950
-Text Label 3025 4050 0    50   ~ 0
+	3025 2950 3225 2950
+Text Label 3025 2750 0    50   ~ 0
 A18
 Wire Wire Line
-	3025 4050 3225 4050
+	3025 2750 3225 2750
 Text Label 8375 2475 2    50   ~ 0
 IO0
 Wire Wire Line
@@ -209,38 +209,26 @@ Text Label 8375 3175 2    50   ~ 0
 IO7
 Wire Wire Line
 	8375 3175 8175 3175
-Text Label 3025 4150 0    50   ~ 0
+Text Label 3025 2850 0    50   ~ 0
 IO0
 Wire Wire Line
-	3025 4150 3225 4150
-Text Label 3025 4250 0    50   ~ 0
-IO1
-Wire Wire Line
-	3025 4250 3225 4250
-Text Label 3025 4350 0    50   ~ 0
-IO2
-Wire Wire Line
-	3025 4350 3225 4350
-Text Label 3025 4450 0    50   ~ 0
+	3025 2850 3225 2850
+Text Label 3025 3750 0    50   ~ 0
 IO3
 Wire Wire Line
-	3025 4450 3225 4450
-Text Label 3025 4550 0    50   ~ 0
+	3025 3750 3225 3750
+Text Label 3025 4050 0    50   ~ 0
 IO4
 Wire Wire Line
-	3025 4550 3225 4550
-Text Label 3025 4650 0    50   ~ 0
-IO5
-Wire Wire Line
-	3025 4650 3225 4650
-Text Label 3025 4750 0    50   ~ 0
+	3025 4050 3225 4050
+Text Label 3025 3650 0    50   ~ 0
 IO6
 Wire Wire Line
-	3025 4750 3225 4750
-Text Label 3025 4850 0    50   ~ 0
+	3025 3650 3225 3650
+Text Label 3025 3550 0    50   ~ 0
 IO7
 Wire Wire Line
-	3025 4850 3225 4850
+	3025 3550 3225 3550
 Text GLabel 6375 4525 0    39   Input ~ 0
 ~SRAM_CE~
 Wire Wire Line
@@ -253,14 +241,10 @@ Text GLabel 6375 4725 0    39   Input ~ 0
 ~SRAM_WE~
 Wire Wire Line
 	6375 4725 6475 4725
-Text GLabel 3125 4950 0    39   Output ~ 0
+Text GLabel 3000 3450 0    39   Output ~ 0
 ~SRAM_OE~
 Wire Wire Line
-	3125 4950 3225 4950
-Text GLabel 3125 5050 0    39   Output ~ 0
-~SRAM_WE~
-Wire Wire Line
-	3125 5050 3225 5050
+	3000 3450 3225 3450
 $Comp
 L power:GND #PWR0131
 U 1 1 5D034D1A
@@ -342,4 +326,64 @@ F 3 "http://www.issi.com/WW/pdf/61-64WV5128EDBLL.pdf" H 7575 3925 50  0001 C CNN
 	1    7325 3575
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6172BD60
+P 10050 3300
+AR Path="/5CAB8B22/6172BD60" Ref="#PWR?"  Part="1" 
+AR Path="/5CADFC7F/6172BD60" Ref="#PWR0190"  Part="1" 
+F 0 "#PWR0190" H 10050 3150 50  0001 C CNN
+F 1 "+3V3" H 10050 3475 50  0000 C CNN
+F 2 "" H 10050 3300 50  0001 C CNN
+F 3 "" H 10050 3300 50  0001 C CNN
+	1    10050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6172BD6A
+P 10050 3725
+AR Path="/5CAB8B22/6172BD6A" Ref="#PWR?"  Part="1" 
+AR Path="/5CADFC7F/6172BD6A" Ref="#PWR0191"  Part="1" 
+F 0 "#PWR0191" H 10050 3475 50  0001 C CNN
+F 1 "GND" H 10055 3552 50  0000 C CNN
+F 2 "" H 10050 3725 50  0001 C CNN
+F 3 "" H 10050 3725 50  0001 C CNN
+	1    10050 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 3725 10050 3650
+Wire Wire Line
+	10050 3350 10050 3300
+$Comp
+L Device:C C?
+U 1 1 6172BD76
+P 10050 3500
+AR Path="/5CAB7CD4/6172BD76" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/6172BD76" Ref="C?"  Part="1" 
+AR Path="/5CADFC7F/6172BD76" Ref="C85"  Part="1" 
+F 0 "C85" H 10165 3546 50  0000 L CNN
+F 1 "100nF" H 10165 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10088 3350 50  0001 C CNN
+F 3 "~" H 10050 3500 50  0001 C CNN
+	1    10050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3025 3250 3225 3250
+Wire Wire Line
+	3000 3950 3225 3950
+Text GLabel 3000 3950 0    39   Output ~ 0
+~SRAM_WE~
+Wire Wire Line
+	3025 3050 3225 3050
+Text Label 3025 3050 0    50   ~ 0
+IO1
+Text Label 3025 3250 0    50   ~ 0
+IO2
+Wire Wire Line
+	3025 3850 3225 3850
+Text Label 3025 3850 0    50   ~ 0
+IO5
 $EndSCHEMATC
