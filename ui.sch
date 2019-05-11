@@ -1062,41 +1062,9 @@ Wire Wire Line
 	8000 3150 8250 3150
 Text Label 8000 3150 0    50   ~ 0
 SW6
-Text GLabel 8025 4150 0    50   BiDi ~ 0
-P10_1
-Text GLabel 8025 4050 0    50   BiDi ~ 0
-P9_1
-Text GLabel 8025 3950 0    50   BiDi ~ 0
-P8_1
-Text GLabel 8025 3850 0    50   BiDi ~ 0
-P7_1
-Text GLabel 8025 3750 0    50   BiDi ~ 0
-P4_1
-Text GLabel 8025 3650 0    50   BiDi ~ 0
-P3_1
-Text GLabel 8025 3550 0    50   BiDi ~ 0
-P2_1
-Text GLabel 8025 3450 0    50   BiDi ~ 0
-P1_1
 Wire Wire Line
-	8025 4150 8250 4150
-Wire Wire Line
-	8025 4050 8250 4050
-Wire Wire Line
-	8025 3950 8250 3950
-Wire Wire Line
-	8025 3850 8250 3850
-Wire Wire Line
-	8025 3750 8250 3750
-Wire Wire Line
-	8025 3650 8250 3650
-Wire Wire Line
-	8025 3550 8250 3550
-Wire Wire Line
-	8025 3450 8250 3450
-Wire Wire Line
-	8150 1550 8250 1550
-Text GLabel 8150 1550 0    39   Output ~ 0
+	7975 1550 8250 1550
+Text GLabel 7975 1550 0    39   Output ~ 0
 ~SRAM_CE~
 Wire Wire Line
 	8000 3050 8250 3050
@@ -1161,7 +1129,45 @@ F 3 "" H 8450 2850 50  0001 C CNN
 	2    8450 2850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8250 2450
 NoConn ~ 8250 3350
-NoConn ~ 8250 2550
+Wire Wire Line
+	8025 3450 8250 3450
+Wire Wire Line
+	8025 3650 8250 3650
+Wire Wire Line
+	8025 3850 8250 3850
+Wire Wire Line
+	8025 4050 8250 4050
+Wire Wire Line
+	8025 3550 8250 3550
+Wire Wire Line
+	8025 3750 8250 3750
+Wire Wire Line
+	8025 3950 8250 3950
+Wire Wire Line
+	8025 4150 8250 4150
+Text GLabel 8025 3450 0    50   BiDi ~ 0
+P1_1
+Text GLabel 8025 3650 0    50   BiDi ~ 0
+P2_1
+Text GLabel 8025 3850 0    50   BiDi ~ 0
+P3_1
+Text GLabel 8025 4050 0    50   BiDi ~ 0
+P4_1
+Text GLabel 8025 3550 0    50   BiDi ~ 0
+P7_1
+Text GLabel 8025 3750 0    50   BiDi ~ 0
+P8_1
+Text GLabel 8025 3950 0    50   BiDi ~ 0
+P9_1
+Text GLabel 8025 4150 0    50   BiDi ~ 0
+P10_1
+Text GLabel 7975 2550 0    50   BiDi ~ 0
+ADC_SDA_3V3
+Text GLabel 7975 2450 0    50   BiDi ~ 0
+ADC_SCL_3V3
+Wire Wire Line
+	7975 2450 8250 2450
+Wire Wire Line
+	7975 2550 8250 2550
 $EndSCHEMATC
