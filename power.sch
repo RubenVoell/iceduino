@@ -817,8 +817,8 @@ F 7 "ERMINAL BLOCK, SCREW TYPE, 5.08" H 850 1375 50  0001 C CNN "Description"
 	1    850  1375
 	-1   0    0    1   
 $EndComp
-Text Notes 4825 9075 0    50   ~ 0
-3,3 V 2 A
+Text Notes 3550 8675 0    197  ~ 0
+3,3 V 1 A
 $Comp
 L Device:Varistor RV1
 U 1 1 5CD8A5BE
@@ -2205,7 +2205,7 @@ Wire Wire Line
 	4175 3400 3925 3400
 Text Label 4175 3400 2    50   ~ 0
 FB_5V
-Text Notes 7075 3150 0    50   ~ 0
+Text Notes 5850 2875 0    197  ~ 0
 5V 2A
 Wire Wire Line
 	7175 3200 7325 3200
@@ -2435,4 +2435,8 @@ F 3 "~" H 5725 1625 50  0001 C CNN
 	1    5725 1625
 	1    0    0    -1  
 $EndComp
+Text Notes 1200 10450 0    100  ~ 0
+Note: Use TLV62568ADRLR for 2 A
+Text Notes 3550 6550 0    197  ~ 0
+1,2 V 1 A
 $EndSCHEMATC
