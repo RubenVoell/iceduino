@@ -1,4 +1,4 @@
-(module L_1008_2520Metric_2.5x2mm (layer F.Cu) (tedit 5CB100B6)
+(module L_1008_2520Metric_2.5x2mm (layer F.Cu) (tedit 5CD862FD)
   (descr "Footprint for 1008_2520Metric")
   (tags Inductor)
   (attr smd)
@@ -16,4 +16,9 @@
   (fp_line (start 1.75 -1.5) (end -1.75 -1.5) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -1 0) (size 0.8 2) (layers F.Cu F.Mask F.Paste))
   (pad 2 smd rect (at 1 0) (size 0.8 2) (layers F.Cu F.Mask F.Paste))
+  (model ${KIPRJMOD}/lib/step/STEP-WE-MAPI-2510-rev1.stp
+    (at (xyz 0 0 0.03937))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0))
+  )
 )

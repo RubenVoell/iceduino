@@ -18,10 +18,17 @@ $Comp
 L ice40hx4k:ICE40HX4K-TQ144 U1
 U 3 1 5CABA9E6
 P 3425 3650
+AR Path="/5CABA9E6" Ref="U1"  Part="3" 
+AR Path="/5CADFC7F/5CABA9E6" Ref="U1"  Part="3" 
 F 0 "U1" H 3450 2100 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 3650 5200 50  0000 L CNN
 F 2 "" H 3425 3650 50  0001 C CNN
 F 3 "" H 3425 3650 50  0001 C CNN
+F 4 "IC FPGA 107 I/O 144TQFP" H 0   0   50  0001 C CNN "Description"
+F 5 "220-1572-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Lattice Semiconductor Corporation" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "ICE40HX4K-TQ144" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	3    3425 3650
 	1    0    0    -1  
 $EndComp
@@ -309,9 +316,14 @@ AR Path="/5CAB7CD4/5D2D1DCF" Ref="C?"  Part="1"
 AR Path="/5CB5889B/5D2D1DCF" Ref="C?"  Part="1" 
 AR Path="/5CADFC7F/5D2D1DCF" Ref="C45"  Part="1" 
 F 0 "C45" H 9690 3546 50  0000 L CNN
-F 1 "100nF" H 9690 3455 50  0000 L CNN
+F 1 "100nF 6,3 V" H 9690 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9613 3350 50  0001 C CNN
 F 3 "~" H 9575 3500 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    9575 3500
 	1    0    0    -1  
 $EndComp
@@ -323,6 +335,11 @@ F 0 "U2" H 6725 2250 50  0000 C CNN
 F 1 "IS61WV5128EDBLL-10TLI" H 7525 4825 50  0000 C CNN
 F 2 "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm" H 7225 1675 50  0001 C CNN
 F 3 "http://www.issi.com/WW/pdf/61-64WV5128EDBLL.pdf" H 7575 3925 50  0001 C CNN
+F 4 "C SRAM 4M PARALLEL 44TSOP2" H 0   0   50  0001 C CNN "Description"
+F 5 "706-1147-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "ISSI, Integrated Silicon Solution Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "IS61WV5128EDBLL-10TLI" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    7325 3575
 	1    0    0    -1  
 $EndComp
@@ -364,9 +381,14 @@ AR Path="/5CAB7CD4/6172BD76" Ref="C?"  Part="1"
 AR Path="/5CB5889B/6172BD76" Ref="C?"  Part="1" 
 AR Path="/5CADFC7F/6172BD76" Ref="C85"  Part="1" 
 F 0 "C85" H 10165 3546 50  0000 L CNN
-F 1 "100nF" H 10165 3455 50  0000 L CNN
+F 1 "100nF 6,3 V" H 10165 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10088 3350 50  0001 C CNN
 F 3 "~" H 10050 3500 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    10050 3500
 	1    0    0    -1  
 $EndComp

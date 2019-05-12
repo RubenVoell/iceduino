@@ -18,10 +18,17 @@ $Comp
 L ice40hx4k:ICE40HX4K-TQ144 U1
 U 5 1 5CAC27A7
 P 10125 2325
+AR Path="/5CAC27A7" Ref="U1"  Part="5" 
+AR Path="/5CB5889B/5CAC27A7" Ref="U1"  Part="5" 
 F 0 "U1" H 10150 800 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 10375 3825 50  0000 L CNN
 F 2 "" H 10125 2325 50  0001 C CNN
 F 3 "" H 10125 2325 50  0001 C CNN
+F 4 "IC FPGA 107 I/O 144TQFP" H 0   0   50  0001 C CNN "Description"
+F 5 "220-1572-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Lattice Semiconductor Corporation" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "ICE40HX4K-TQ144" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	5    10125 2325
 	1    0    0    -1  
 $EndComp
@@ -29,10 +36,17 @@ $Comp
 L ice40hx4k:ICE40HX4K-TQ144 U1
 U 4 1 5CAC716E
 P 2525 2100
+AR Path="/5CAC716E" Ref="U1"  Part="4" 
+AR Path="/5CB5889B/5CAC716E" Ref="U1"  Part="4" 
 F 0 "U1" H 2525 925 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 2800 3250 50  0000 L CNN
 F 2 "" H 2525 2100 50  0001 C CNN
 F 3 "" H 2525 2100 50  0001 C CNN
+F 4 "IC FPGA 107 I/O 144TQFP" H 0   0   50  0001 C CNN "Description"
+F 5 "220-1572-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Lattice Semiconductor Corporation" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "ICE40HX4K-TQ144" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	4    2525 2100
 	1    0    0    -1  
 $EndComp
@@ -224,6 +238,11 @@ F 0 "U9" H 6100 4875 50  0000 C CNN
 F 1 "TXS0108EPW" V 6325 5550 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6350 4775 50  0001 C CNN
 F 3 "www.ti.com/lit/ds/symlink/txs0108e.pdf" H 6350 5425 50  0001 C CNN
+F 4 "IC TRNSLTR BIDIRECTIONAL 20TSSOP" H 0   0   50  0001 C CNN "Description"
+F 5 "296-23011-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "TXS0108EPWR" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    6350 5525
 	1    0    0    -1  
 $EndComp
@@ -306,6 +325,11 @@ F 0 "U8" H 4125 4875 50  0000 C CNN
 F 1 "TXS0108EPW" V 4350 5550 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4375 4775 50  0001 C CNN
 F 3 "www.ti.com/lit/ds/symlink/txs0108e.pdf" H 4375 5425 50  0001 C CNN
+F 4 "IC TRNSLTR BIDIRECTIONAL 20TSSOP" H 0   0   50  0001 C CNN "Description"
+F 5 "296-23011-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "TXS0108EPWR" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    4375 5525
 	1    0    0    -1  
 $EndComp
@@ -517,9 +541,14 @@ P 5650 7125
 AR Path="/5CAB7CD4/5CD4ED57" Ref="C?"  Part="1" 
 AR Path="/5CB5889B/5CD4ED57" Ref="C27"  Part="1" 
 F 0 "C27" H 5765 7171 50  0000 L CNN
-F 1 "100nF" H 5765 7080 50  0000 L CNN
+F 1 "100nF 6,3 V" H 5765 7080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 6975 50  0001 C CNN
 F 3 "~" H 5650 7125 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5650 7125
 	1    0    0    -1  
 $EndComp
@@ -574,9 +603,14 @@ P 6125 7125
 AR Path="/5CAB7CD4/5CD72815" Ref="C?"  Part="1" 
 AR Path="/5CB5889B/5CD72815" Ref="C28"  Part="1" 
 F 0 "C28" H 6240 7171 50  0000 L CNN
-F 1 "100nF" H 6240 7080 50  0000 L CNN
+F 1 "100nF 6,3 V" H 6240 7080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6163 6975 50  0001 C CNN
 F 3 "~" H 6125 7125 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6125 7125
 	1    0    0    -1  
 $EndComp
@@ -587,9 +621,14 @@ P 6600 7125
 AR Path="/5CAB7CD4/5CD7281F" Ref="C?"  Part="1" 
 AR Path="/5CB5889B/5CD7281F" Ref="C29"  Part="1" 
 F 0 "C29" H 6715 7171 50  0000 L CNN
-F 1 "100nF" H 6715 7080 50  0000 L CNN
+F 1 "100nF 6,3 V" H 6715 7080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 6975 50  0001 C CNN
 F 3 "~" H 6600 7125 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6600 7125
 	1    0    0    -1  
 $EndComp
@@ -1039,7 +1078,7 @@ $EndComp
 Wire Wire Line
 	1775 3000 2325 3000
 Wire Wire Line
-	2325 3100 1875 3100
+	2325 3100 2250 3100
 Text GLabel 1775 3100 0    39   Input ~ 0
 CRESET_B
 Text GLabel 1775 3000 0    39   Output ~ 0
@@ -1079,6 +1118,7 @@ F 4 "E-Switch" H 1075 3800 50  0001 C CNN "Mfg Name"
 F 5 "TL3305AF160QG" H 1075 3800 50  0001 C CNN "Mfg Part Num"
 F 6 "EG5350CT-ND" H 1075 3800 50  0001 C CNN "Digikey"
 F 7 "SWITCH TACTILE SPST-NO 50MA 12V" H 1075 3800 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    1075 3800
 	0    -1   -1   0   
 $EndComp
@@ -1095,9 +1135,14 @@ P 5175 7125
 AR Path="/5CAB7CD4/5CD4AF05" Ref="C?"  Part="1" 
 AR Path="/5CB5889B/5CD4AF05" Ref="C26"  Part="1" 
 F 0 "C26" H 5290 7171 50  0000 L CNN
-F 1 "100nF" H 5290 7080 50  0000 L CNN
+F 1 "100nF 6,3 V" H 5290 7080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5213 6975 50  0001 C CNN
 F 3 "~" H 5175 7125 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5175 7125
 	1    0    0    -1  
 $EndComp
@@ -1116,6 +1161,7 @@ F 5 "ECS-3225S33-500-FN-TR" H 7975 2525 50  0001 C CNN "Mfg Part Num"
 F 6 "XC2226CT-ND" H 7975 2525 50  0001 C CNN "Digikey"
 F 7 "XTAL OSC XO 50.0000MHZ HCMOS SMD" H 7975 2525 50  0001 C CNN "Description"
 F 8 "50 MHz" H 8100 2275 50  0000 C CNN "f"
+F 9 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    7975 2525
 	1    0    0    -1  
 $EndComp
@@ -1169,9 +1215,14 @@ AR Path="/5CAB7CD4/5E3621A8" Ref="C?"  Part="1"
 AR Path="/5CAB8B22/5E3621A8" Ref="C?"  Part="1" 
 AR Path="/5CB5889B/5E3621A8" Ref="C73"  Part="1" 
 F 0 "C73" H 6811 2546 50  0000 R CNN
-F 1 "100nF" H 6811 2455 50  0000 R CNN
+F 1 "100nF 6,3 V" H 6811 2455 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6963 2350 50  0001 C CNN
 F 3 "~" H 6925 2500 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6925 2500
 	1    0    0    -1  
 $EndComp
@@ -1265,6 +1316,11 @@ F 0 "Q2" H 4556 2446 50  0000 L CNN
 F 1 "Q_NMOS_GSD" H 4556 2355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4550 2500 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" H 4350 2400 50  0001 C CNN
+F 4 "MOSFET N-CH 60V 310MA SOT23" H 0   0   50  0001 C CNN "Description"
+F 5 "DMN65D8L-7DICT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Diodes Incorporated" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "DMN65D8L-7" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    4350 2400
 	1    0    0    -1  
 $EndComp
@@ -1289,30 +1345,30 @@ Text GLabel 4100 2400 0    39   Output ~ 0
 CDONE
 Wire Wire Line
 	4100 2400 4150 2400
-Text Label 9250 5325 0    50   ~ 0
+Text Label 9225 5175 0    50   ~ 0
 INO_A0
 Wire Wire Line
-	9250 5325 9650 5325
-Text Label 9250 5225 0    50   ~ 0
+	9225 5175 9625 5175
+Text Label 9225 5075 0    50   ~ 0
 INO_A1
 Wire Wire Line
-	9250 5225 9650 5225
-Text Label 9250 5125 0    50   ~ 0
+	9225 5075 9625 5075
+Text Label 9225 4975 0    50   ~ 0
 INO_A2
 Wire Wire Line
-	9250 5125 9650 5125
-Text Label 9250 5025 0    50   ~ 0
+	9225 4975 9625 4975
+Text Label 9225 4875 0    50   ~ 0
 INO_A3
 Wire Wire Line
-	9250 5025 9650 5025
-Text Label 9250 4925 0    50   ~ 0
+	9225 4875 9625 4875
+Text Label 9225 4775 0    50   ~ 0
 INO_A4
 Wire Wire Line
-	9250 4925 9650 4925
-Text Label 9250 4825 0    50   ~ 0
+	9225 4775 9625 4775
+Text Label 9225 4675 0    50   ~ 0
 INO_A5
 Wire Wire Line
-	9250 4825 9650 4825
+	9225 4675 9625 4675
 $Comp
 L Device:Q_NMOS_GSD Q4
 U 1 1 61A963F1
@@ -1321,6 +1377,11 @@ F 0 "Q4" V 8476 3600 50  0000 C CNN
 F 1 "Q_NMOS_GSD" V 8567 3600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8425 3700 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" H 8225 3600 50  0001 C CNN
+F 4 "MOSFET N-CH 60V 310MA SOT23" H 0   0   50  0001 C CNN "Description"
+F 5 "DMN65D8L-7DICT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Diodes Incorporated" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "DMN65D8L-7" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    8225 3600
 	0    -1   1    0   
 $EndComp
@@ -1383,16 +1444,17 @@ Wire Wire Line
 $Comp
 L Analog_ADC:MAX11614 U20
 U 1 1 61CA90A4
-P 10150 5325
-F 0 "U20" H 9775 4575 50  0000 C CNN
-F 1 "MAX11614" H 10375 5975 50  0000 C CNN
-F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 10600 4675 50  0001 L CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf" H 10250 6125 50  0001 C CNN
-F 4 "Maxim Integrated" H 10150 5325 50  0001 C CNN "Mfg Name"
-F 5 "MAX11614EEE+" H 10150 5325 50  0001 C CNN "Mfg Part Num"
-F 6 "MAX11614EEE+-ND" H 10150 5325 50  0001 C CNN "Digikey"
-F 7 "IC ADC SERIAL 12BIT 8CH 16-QSOP" H 10150 5325 50  0001 C CNN "Description"
-	1    10150 5325
+P 10125 5175
+F 0 "U20" H 9750 4425 50  0000 C CNN
+F 1 "MAX11614" H 10350 5825 50  0000 C CNN
+F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 10575 4525 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf" H 10225 5975 50  0001 C CNN
+F 4 "Maxim Integrated" H 10125 5175 50  0001 C CNN "Mfg Name"
+F 5 "MAX11614EEE+" H 10125 5175 50  0001 C CNN "Mfg Part Num"
+F 6 "MAX11614EEE+-ND" H 10125 5175 50  0001 C CNN "Digikey"
+F 7 "IC ADC SERIAL 12BIT 8CH 16-QSOP" H 10125 5175 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
+	1    10125 5175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1403,6 +1465,11 @@ F 0 "Q3" V 6126 3575 50  0000 C CNN
 F 1 "Q_NMOS_GSD" V 6217 3575 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6075 3675 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" H 5875 3575 50  0001 C CNN
+F 4 "MOSFET N-CH 60V 310MA SOT23" H 0   0   50  0001 C CNN "Description"
+F 5 "DMN65D8L-7DICT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Diodes Incorporated" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "DMN65D8L-7" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    5875 3575
 	0    -1   1    0   
 $EndComp
@@ -1483,16 +1550,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0196
 U 1 1 61E36D6F
-P 10150 6200
-F 0 "#PWR0196" H 10150 5950 50  0001 C CNN
-F 1 "GND" H 10155 6027 50  0000 C CNN
-F 2 "" H 10150 6200 50  0001 C CNN
-F 3 "" H 10150 6200 50  0001 C CNN
-	1    10150 6200
+P 10125 6050
+F 0 "#PWR0196" H 10125 5800 50  0001 C CNN
+F 1 "GND" H 10130 5877 50  0000 C CNN
+F 2 "" H 10125 6050 50  0001 C CNN
+F 3 "" H 10125 6050 50  0001 C CNN
+	1    10125 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10150 6200 10150 6125
+	10125 6050 10125 5975
 $Comp
 L Device:C C?
 U 1 1 61E82F85
@@ -1508,6 +1575,7 @@ F 4 "Samsung Electro-Mechanics" H 8050 5575 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 8050 5575 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 8050 5575 50  0001 C CNN "Digikey"
 F 7 " CAP CER 10UF 6.3V X5R 0603" H 8050 5575 50  0001 C CNN "Description"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    8050 5575
 	1    0    0    -1  
 $EndComp
@@ -1519,9 +1587,14 @@ AR Path="/5CAB7CD4/61E82F8B" Ref="C?"  Part="1"
 AR Path="/5CAB8B22/61E82F8B" Ref="C?"  Part="1" 
 AR Path="/5CB5889B/61E82F8B" Ref="C86"  Part="1" 
 F 0 "C86" H 7586 5621 50  0000 R CNN
-F 1 "100nF" H 7586 5530 50  0000 R CNN
+F 1 "100nF 6,3 V" H 7586 5530 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7738 5425 50  0001 C CNN
 F 3 "~" H 7700 5575 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    7700 5575
 	1    0    0    -1  
 $EndComp
@@ -1570,6 +1643,7 @@ F 4 "TDK Corporation" H 7700 5200 50  0001 C CNN "Mfg Name"
 F 5 "MPZ2012S331AT000" H 7700 5200 50  0001 C CNN "Mfg Part Num"
 F 6 "445-1569-1-ND" H 7700 5200 50  0001 C CNN "Digikey"
 F 7 "FERRITE BEAD 330 OHM 0805 1LN" H 7700 5200 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    7700 5200
 	-1   0    0    1   
 $EndComp
@@ -1592,6 +1666,7 @@ F 5 "MPZ2012S331AT000" H 8050 5200 50  0001 C CNN "Mfg Part Num"
 F 6 "445-1569-1-ND" H 8050 5200 50  0001 C CNN "Digikey"
 F 7 "FERRITE BEAD 330 OHM 0805 1LN" H 8050 5200 50  0001 C CNN "Description"
 F 8 "Do Not Place" H 7950 5291 50  0000 R CNN "DNP"
+F 9 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    8050 5200
 	-1   0    0    1   
 $EndComp
@@ -1626,10 +1701,10 @@ Wire Wire Line
 	8050 5050 8050 5100
 Text Label 7700 5375 0    50   ~ 0
 ADC_VCC
-Text Label 10150 4275 3    50   ~ 0
+Text Label 10125 4125 3    50   ~ 0
 ADC_VCC
 Wire Wire Line
-	10150 4275 10150 4625
+	10125 4125 10125 4475
 $Comp
 L Device:R R?
 U 1 1 61FC04E1
@@ -1675,18 +1750,18 @@ Wire Wire Line
 Wire Wire Line
 	8475 4400 8475 3700
 Wire Wire Line
-	11150 5425 10650 5425
+	11125 5275 10625 5275
 Wire Wire Line
-	11150 5325 10650 5325
-Text Label 11150 5425 2    50   ~ 0
+	11125 5175 10625 5175
+Text Label 11125 5275 2    50   ~ 0
 ADC_SDA_5V
-Text Label 11150 5325 2    50   ~ 0
+Text Label 11125 5175 2    50   ~ 0
 ADC_SCL_5V
 Text GLabel 8550 3700 2    50   BiDi ~ 0
 ADC_SCL_3V3
 Text GLabel 6200 3675 2    50   BiDi ~ 0
 ADC_SDA_3V3
-Text Notes 7125 6450 0    50   ~ 0
+Text Notes 7075 6450 0    50   ~ 0
 In the case MAX11614 is not avaible, MAX11615\ncan be placed. In this case, FB7 must not be placed,\nbut FB8 instead. Also the I2C levelshifter transistors and\nthe 5 V pull ups must no be placed.
 Wire Wire Line
 	9350 2875 9925 2875
@@ -1805,6 +1880,7 @@ F 4 "Maxim Integrated" H 2200 3950 50  0001 C CNN "Mfg Name"
 F 5 "MAX40200AUK+T" H 2200 3950 50  0001 C CNN "Mfg Part Num"
 F 6 "MAX40200AUK+TCT-ND" H 2200 3950 50  0001 C CNN "Digikey"
 F 7 "IC DIODE CURRENT SWITCH SOT23-5" H 2200 3950 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    2200 3950
 	1    0    0    -1  
 $EndComp
@@ -1860,6 +1936,7 @@ F 4 "Samsung Electro-Mechanics" H 2700 4125 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 2700 4125 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 2700 4125 50  0001 C CNN "Digikey"
 F 7 " CAP CER 10UF 6.3V X5R 0603" H 2700 4125 50  0001 C CNN "Description"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2700 4125
 	1    0    0    -1  
 $EndComp
@@ -1887,58 +1964,58 @@ Wire Wire Line
 Connection ~ 1875 3100
 Wire Wire Line
 	1875 3100 1775 3100
-Text GLabel 9125 4975 1    50   Input ~ 0
+Text GLabel 9100 4825 1    50   Input ~ 0
 V_IN_PROTECTED
 $Comp
 L Device:R R?
 U 1 1 5D674E9A
-P 9125 5225
+P 9100 5075
 AR Path="/5CAB7CD4/5D674E9A" Ref="R?"  Part="1" 
 AR Path="/5CB5889B/5D674E9A" Ref="R55"  Part="1" 
-F 0 "R55" H 9055 5271 50  0000 R CNN
-F 1 "270k 1%" H 9055 5180 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9055 5225 50  0001 C CNN
-F 3 "~" H 9125 5225 50  0001 C CNN
-	1    9125 5225
+F 0 "R55" H 9030 5121 50  0000 R CNN
+F 1 "270k 1%" H 9030 5030 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 5075 50  0001 C CNN
+F 3 "~" H 9100 5075 50  0001 C CNN
+	1    9100 5075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9125 5075 9125 4975
+	9100 4925 9100 4825
 $Comp
 L Device:R R?
 U 1 1 5D68C01F
-P 9125 5600
+P 9100 5450
 AR Path="/5CAB7CD4/5D68C01F" Ref="R?"  Part="1" 
 AR Path="/5CB5889B/5D68C01F" Ref="R69"  Part="1" 
-F 0 "R69" H 9055 5646 50  0000 R CNN
-F 1 "30k 1%" H 9055 5555 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9055 5600 50  0001 C CNN
-F 3 "~" H 9125 5600 50  0001 C CNN
-	1    9125 5600
+F 0 "R69" H 9030 5496 50  0000 R CNN
+F 1 "30k 1%" H 9030 5405 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 5450 50  0001 C CNN
+F 3 "~" H 9100 5450 50  0001 C CNN
+	1    9100 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D6A3356
-P 9125 5850
+P 9100 5700
 AR Path="/5CAB8B22/5D6A3356" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5889B/5D6A3356" Ref="#PWR0207"  Part="1" 
-F 0 "#PWR0207" H 9125 5600 50  0001 C CNN
-F 1 "GND" H 9130 5677 50  0000 C CNN
-F 2 "" H 9125 5850 50  0001 C CNN
-F 3 "" H 9125 5850 50  0001 C CNN
-	1    9125 5850
+F 0 "#PWR0207" H 9100 5450 50  0001 C CNN
+F 1 "GND" H 9105 5527 50  0000 C CNN
+F 2 "" H 9100 5700 50  0001 C CNN
+F 3 "" H 9100 5700 50  0001 C CNN
+	1    9100 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9125 5850 9125 5750
+	9100 5700 9100 5600
 Wire Wire Line
-	9125 5375 9125 5425
+	9100 5225 9100 5275
 Wire Wire Line
-	9650 5425 9125 5425
-Connection ~ 9125 5425
+	9625 5275 9100 5275
+Connection ~ 9100 5275
 Wire Wire Line
-	9125 5425 9125 5450
+	9100 5275 9100 5300
 $Comp
 L power:+5V #PWR0208
 U 1 1 5D77E5F0
@@ -1952,4 +2029,110 @@ F 3 "" H 1000 5725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 5725 1375 5725
+NoConn ~ 9625 5375
+Text Label 2325 5675 0    50   ~ 0
+INO_AREF
+Wire Wire Line
+	2325 5675 2725 5675
+Text Label 9250 5325 3    50   ~ 0
+INO_AREF
+$Comp
+L power:PWR_FLAG #FLG0109
+U 1 1 5D9DA608
+P 7650 5375
+F 0 "#FLG0109" H 7650 5450 50  0001 C CNN
+F 1 "PWR_FLAG" V 7650 5502 50  0000 L CNN
+F 2 "" H 7650 5375 50  0001 C CNN
+F 3 "~" H 7650 5375 50  0001 C CNN
+	1    7650 5375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 5375 7700 5375
+$Comp
+L Device:R R?
+U 1 1 5DA5F71A
+P 9400 5775
+AR Path="/5CAB7CD4/5DA5F71A" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/5DA5F71A" Ref="R70"  Part="1" 
+F 0 "R70" H 9470 5821 50  0000 L CNN
+F 1 "1k" H 9470 5730 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 5775 50  0001 C CNN
+F 3 "~" H 9400 5775 50  0001 C CNN
+	1    9400 5775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 5325 9250 5775
+Wire Wire Line
+	9550 5775 9575 5775
+$Comp
+L Device:C C?
+U 1 1 5DA8D0F0
+P 9575 6000
+AR Path="/5CAB7CD4/5DA8D0F0" Ref="C?"  Part="1" 
+AR Path="/5CAB8B22/5DA8D0F0" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/5DA8D0F0" Ref="C80"  Part="1" 
+F 0 "C80" H 9461 6046 50  0000 R CNN
+F 1 "100nF 6,3 V" H 9461 5955 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9613 5850 50  0001 C CNN
+F 3 "~" H 9575 6000 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
+	1    9575 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9575 5850 9575 5775
+Connection ~ 9575 5775
+Wire Wire Line
+	9575 5775 9625 5775
+$Comp
+L power:GND #PWR?
+U 1 1 5DAA3F6E
+P 9575 6200
+AR Path="/5CAB8B22/5DAA3F6E" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5889B/5DAA3F6E" Ref="#PWR0209"  Part="1" 
+F 0 "#PWR0209" H 9575 5950 50  0001 C CNN
+F 1 "GND" H 9580 6027 50  0000 C CNN
+F 2 "" H 9575 6200 50  0001 C CNN
+F 3 "" H 9575 6200 50  0001 C CNN
+	1    9575 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9575 6200 9575 6150
+Text Label 1475 3350 0    50   ~ 0
+INO_RESET
+Wire Wire Line
+	1475 3350 1875 3350
+$Comp
+L Device:D_ALT D?
+U 1 1 5DC1B79F
+P 2025 3350
+AR Path="/5CA8FBC7/5DC1B79F" Ref="D?"  Part="1" 
+AR Path="/5CAB8B22/5DC1B79F" Ref="D?"  Part="1" 
+AR Path="/5CB5889B/5DC1B79F" Ref="D19"  Part="1" 
+F 0 "D19" H 2025 3566 50  0000 C CNN
+F 1 "CDBU5020" H 2025 3475 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2025 3350 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/CDBU0520-HF-RevA797161.pdf" H 2025 3350 50  0001 C CNN
+F 4 "Comchip Technology" H 2025 3350 50  0001 C CNN "Mfg Name"
+F 5 "CDBU0520" H 2025 3350 50  0001 C CNN "Mfg Part Num"
+F 6 "641-1332-1-ND" H 2025 3350 50  0001 C CNN "Digikey"
+F 7 "DIODE SCHOTTKY 20V 500MA 0603" H 2025 3350 50  0001 C CNN "Description"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
+	1    2025 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2175 3350 2250 3350
+Wire Wire Line
+	2250 3350 2250 3100
+Connection ~ 2250 3100
+Wire Wire Line
+	2250 3100 1875 3100
 $EndSCHEMATC

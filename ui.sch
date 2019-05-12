@@ -26,6 +26,7 @@ F 4 "E-Switch" H 3150 3450 50  0001 C CNN "Mfg Name"
 F 5 "TL3305AF160QG" H 3150 3450 50  0001 C CNN "Mfg Part Num"
 F 6 "EG5350CT-ND" H 3150 3450 50  0001 C CNN "Digikey"
 F 7 "SWITCH TACTILE SPST-NO 50MA 12V" H 3150 3450 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    3150 3450
 	0    -1   -1   0   
 $EndComp
@@ -41,6 +42,7 @@ F 4 "E-Switch" H 4250 3475 50  0001 C CNN "Mfg Name"
 F 5 "TL3305AF160QG" H 4250 3475 50  0001 C CNN "Mfg Part Num"
 F 6 "EG5350CT-ND" H 4250 3475 50  0001 C CNN "Digikey"
 F 7 "SWITCH TACTILE SPST-NO 50MA 12V" H 4250 3475 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    4250 3475
 	0    -1   -1   0   
 $EndComp
@@ -56,6 +58,7 @@ F 4 "E-Switch" H 5375 3475 50  0001 C CNN "Mfg Name"
 F 5 "TL3305AF160QG" H 5375 3475 50  0001 C CNN "Mfg Part Num"
 F 6 "EG5350CT-ND" H 5375 3475 50  0001 C CNN "Digikey"
 F 7 "SWITCH TACTILE SPST-NO 50MA 12V" H 5375 3475 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    5375 3475
 	0    -1   -1   0   
 $EndComp
@@ -554,9 +557,14 @@ L Device:C C21
 U 1 1 5CC06EC3
 P 1350 3475
 F 0 "C21" H 1465 3521 50  0000 L CNN
-F 1 "100nF" H 1465 3430 50  0000 L CNN
+F 1 "100nF 6,3 V" H 1465 3430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 3325 50  0001 C CNN
 F 3 "~" H 1350 3475 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1350 3475
 	1    0    0    -1  
 $EndComp
@@ -648,6 +656,7 @@ F 4 "E-Switch" H 2025 3450 50  0001 C CNN "Mfg Name"
 F 5 "TL3305AF160QG" H 2025 3450 50  0001 C CNN "Mfg Part Num"
 F 6 "EG5350CT-ND" H 2025 3450 50  0001 C CNN "Digikey"
 F 7 "SWITCH TACTILE SPST-NO 50MA 12V" H 2025 3450 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    2025 3450
 	0    -1   -1   0   
 $EndComp
@@ -663,6 +672,7 @@ F 4 "E-Switch" H 925 3475 50  0001 C CNN "Mfg Name"
 F 5 "TL3305AF160QG" H 925 3475 50  0001 C CNN "Mfg Part Num"
 F 6 "EG5350CT-ND" H 925 3475 50  0001 C CNN "Digikey"
 F 7 "SWITCH TACTILE SPST-NO 50MA 12V" H 925 3475 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    925  3475
 	0    -1   -1   0   
 $EndComp
@@ -673,9 +683,14 @@ L Device:C C22
 U 1 1 5CC189D6
 P 2425 3475
 F 0 "C22" H 2540 3521 50  0000 L CNN
-F 1 "100nF" H 2540 3430 50  0000 L CNN
+F 1 "100nF 6,3 V" H 2540 3430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2463 3325 50  0001 C CNN
 F 3 "~" H 2425 3475 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2425 3475
 	1    0    0    -1  
 $EndComp
@@ -715,9 +730,14 @@ L Device:C C23
 U 1 1 5CC3DAB2
 P 3575 3475
 F 0 "C23" H 3690 3521 50  0000 L CNN
-F 1 "100nF" H 3690 3430 50  0000 L CNN
+F 1 "100nF 6,3 V" H 3690 3430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3613 3325 50  0001 C CNN
 F 3 "~" H 3575 3475 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3575 3475
 	1    0    0    -1  
 $EndComp
@@ -782,9 +802,14 @@ L Device:C C24
 U 1 1 5CC4D450
 P 4675 3500
 F 0 "C24" H 4790 3546 50  0000 L CNN
-F 1 "100nF" H 4790 3455 50  0000 L CNN
+F 1 "100nF 6,3 V" H 4790 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4713 3350 50  0001 C CNN
 F 3 "~" H 4675 3500 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4675 3500
 	1    0    0    -1  
 $EndComp
@@ -821,9 +846,14 @@ L Device:C C25
 U 1 1 5CC544E7
 P 5800 3500
 F 0 "C25" H 5915 3546 50  0000 L CNN
-F 1 "100nF" H 5915 3455 50  0000 L CNN
+F 1 "100nF 6,3 V" H 5915 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5838 3350 50  0001 C CNN
 F 3 "~" H 5800 3500 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5800 3500
 	1    0    0    -1  
 $EndComp
@@ -856,6 +886,7 @@ F 4 "C&K" H 1275 5425 50  0001 C CNN "Mfg Name"
 F 5 "JS202011SCQN" H 1275 5425 50  0001 C CNN "Mfg Part Num"
 F 6 "401-2002-1-ND" H 1275 5425 50  0001 C CNN "Digikey"
 F 7 "SWITCH SLIDE DPDT 300MA 6V" H 1275 5425 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    1275 5425
 	1    0    0    -1  
 $EndComp
@@ -890,9 +921,14 @@ L Device:C C42
 U 1 1 5E39D5E2
 P 1950 5375
 F 0 "C42" H 2065 5421 50  0000 L CNN
-F 1 "100nF" H 2065 5330 50  0000 L CNN
+F 1 "100nF 6,3 V" H 2065 5330 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 5225 50  0001 C CNN
 F 3 "~" H 1950 5375 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1950 5375
 	1    0    0    -1  
 $EndComp
@@ -958,6 +994,7 @@ F 4 "C&K" H 2750 5450 50  0001 C CNN "Mfg Name"
 F 5 "JS202011SCQN" H 2750 5450 50  0001 C CNN "Mfg Part Num"
 F 6 "401-2002-1-ND" H 2750 5450 50  0001 C CNN "Digikey"
 F 7 "SWITCH SLIDE DPDT 300MA 6V" H 2750 5450 50  0001 C CNN "Description"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    2750 5450
 	1    0    0    -1  
 $EndComp
@@ -992,9 +1029,14 @@ L Device:C C74
 U 1 1 5E3BC923
 P 3425 5400
 F 0 "C74" H 3540 5446 50  0000 L CNN
-F 1 "100nF" H 3540 5355 50  0000 L CNN
+F 1 "100nF 6,3 V" H 3540 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3463 5250 50  0001 C CNN
 F 3 "~" H 3425 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3425 5400
 	1    0    0    -1  
 $EndComp
@@ -1122,10 +1164,17 @@ $Comp
 L ice40hx4k:ICE40HX4K-TQ144 U1
 U 2 1 5CAB837C
 P 8450 2850
+AR Path="/5CAB837C" Ref="U1"  Part="2" 
+AR Path="/5CAB7CD4/5CAB837C" Ref="U1"  Part="2" 
 F 0 "U1" H 8450 1375 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 8650 4300 50  0000 L CNN
 F 2 "" H 8450 2850 50  0001 C CNN
 F 3 "" H 8450 2850 50  0001 C CNN
+F 4 "IC FPGA 107 I/O 144TQFP" H 0   0   50  0001 C CNN "Description"
+F 5 "220-1572-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Lattice Semiconductor Corporation" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "ICE40HX4K-TQ144" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	2    8450 2850
 	1    0    0    -1  
 $EndComp

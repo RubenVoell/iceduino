@@ -42,6 +42,11 @@ F 0 "U1" H 5950 2650 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 5950 3550 50  0000 L CNN
 F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 6325 3100 50  0001 C CNN
 F 3 "" H 6325 3100 50  0001 C CNN
+F 4 "IC FPGA 107 I/O 144TQFP" H 0   0   50  0001 C CNN "Description"
+F 5 "220-1572-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Lattice Semiconductor Corporation" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "ICE40HX4K-TQ144" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    6325 3100
 	1    0    0    -1  
 $EndComp
