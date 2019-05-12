@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC2G07DCKR
+D Buffer, Non-Inverting 2 Element 1 Bit per Element Open Drain Output SC-70-6
+F http://www.ti.com/lit/ds/symlink/sn74lvc2g07.pdf
+$ENDCMP
+#
+#End Doc Library
