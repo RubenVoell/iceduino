@@ -52,7 +52,7 @@ U 1 1 5CB8B439
 P 2775 7350
 F 0 "U6" H 2775 7815 50  0000 C CNN
 F 1 "TLV62568APDRLR" H 2775 7724 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-563" H 2775 7050 50  0001 C CNN
+F 2 "footprints:Texas_DRL_SOT-563_1.6x1.6mm_0.5mm-pitch_footprint" H 2775 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv62568a.pdf" H 2775 7050 50  0001 C CNN
 F 4 "IC REG BUCK ADJUSTABLE 1A SOT563" H 0   0   50  0001 C CNN "Description"
 F 5 "296-51691-1-ND" H 0   0   50  0001 C CNN "Digikey"
@@ -279,7 +279,7 @@ U 1 1 5CBA1062
 P 2750 9300
 F 0 "U7" H 2750 9765 50  0000 C CNN
 F 1 "TLV62568APDRLR" H 2750 9674 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-563" H 2750 9000 50  0001 C CNN
+F 2 "footprints:Texas_DRL_SOT-563_1.6x1.6mm_0.5mm-pitch_footprint" H 2750 9000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv62568a.pdf" H 2750 9000 50  0001 C CNN
 F 4 "IC REG BUCK ADJUSTABLE 1A SOT563" H 0   0   50  0001 C CNN "Description"
 F 5 "296-51691-1-ND" H 0   0   50  0001 C CNN "Digikey"
@@ -1300,9 +1300,9 @@ F 3 "~" H 10875 4625 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10075 5300 11225 5300
+	10075 4900 11225 4900
 Wire Wire Line
-	10075 4900 10875 4900
+	10075 5300 10875 5300
 Wire Wire Line
 	9575 5825 9575 5400
 Wire Wire Line
@@ -1341,9 +1341,9 @@ Text Label 1700 9300 0    50   ~ 0
 EN_LOW_VOLTAGE
 Wire Wire Line
 	1700 9300 2300 9300
-Text Label 10200 5300 0    50   ~ 0
-EN_HIGH_VOLTAGE
 Text Label 10200 4900 0    50   ~ 0
+EN_HIGH_VOLTAGE
+Text Label 10200 5300 0    50   ~ 0
 EN_LOW_VOLTAGE
 $Comp
 L Device:R R49
@@ -1401,7 +1401,7 @@ U 1 1 5CE854C4
 P 4000 1350
 F 0 "L3" H 4000 1631 50  0000 C CNN
 F 1 "L_DLW5BTM" H 4000 1540 50  0000 C CNN
-F 2 "footprints:DLW5BTM_5.00x5.00mm_footprint" H 4000 1350 50  0001 C CNN
+F 2 "footprints:L_Murata_DLW5BTM_5.00x5.00mm_footprint" H 4000 1350 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796761587742/EFLC0025.pdf" H 4000 1350 50  0001 C CNN
 F 4 "Murata Electronics North America" H 4000 1350 50  0001 C CNN "Mfg Name"
 F 5 "DLW5BTM251SQ2L" H 4000 1350 50  0001 C CNN "Mfg Part Num"
@@ -1439,13 +1439,6 @@ Wire Wire Line
 Wire Wire Line
 	13350 1725 14025 1725
 Connection ~ 14025 1725
-Wire Wire Line
-	11225 4775 11225 5300
-Wire Wire Line
-	10875 4900 10875 4775
-Connection ~ 11225 5300
-Wire Wire Line
-	11225 5300 11225 5450
 $Comp
 L Device:R R30
 U 1 1 5D0165C1
@@ -2439,4 +2432,11 @@ Text Notes 1200 10450 0    100  ~ 0
 Note: Use TLV62568ADRLR for 2 A
 Text Notes 3550 6550 0    197  ~ 0
 1,2 V 1 A
+Wire Wire Line
+	11225 4775 11225 4900
+Wire Wire Line
+	10875 4775 10875 5300
+Connection ~ 11225 4900
+Wire Wire Line
+	11225 4900 11225 5450
 $EndSCHEMATC

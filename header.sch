@@ -1154,7 +1154,7 @@ AR Path="/5CAB8B22/5E36217B" Ref="Y?"  Part="1"
 AR Path="/5CB5889B/5E36217B" Ref="Y2"  Part="1" 
 F 0 "Y2" H 7675 2275 50  0000 C CNN
 F 1 "ECS-3225S33-500-FN-TR" H 8000 2775 50  0000 C CNN
-F 2 "footprints:ECS-3225S_3.2x2.5mm_footprint" H 7975 1925 50  0001 C CNN
+F 2 "footprints:Y_ECS-3225S_3.2x2.5mm_footprint" H 7975 1925 50  0001 C CNN
 F 3 "https://www.ecsxtal.com/store/pdf/ECS-3225S.pdf" H 7975 1925 50  0001 C CNN
 F 4 "ECS Inc." H 7975 2525 50  0001 C CNN "Mfg Name"
 F 5 "ECS-3225S33-500-FN-TR" H 7975 2525 50  0001 C CNN "Mfg Part Num"
