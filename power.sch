@@ -2439,4 +2439,32 @@ Wire Wire Line
 Connection ~ 11225 4900
 Wire Wire Line
 	11225 4900 11225 5450
+Wire Wire Line
+	7500 1750 8225 1750
+Wire Wire Line
+	7500 1675 7500 1750
+Wire Wire Line
+	7500 1275 8225 1275
+Wire Wire Line
+	7500 1375 7500 1275
+$Comp
+L Device:C C90
+U 1 1 5CE9322D
+P 7500 1525
+AR Path="/5CA8FBC7/5CE9322D" Ref="C90"  Part="1" 
+AR Path="/5CAB8B22/5CE9322D" Ref="C?"  Part="1" 
+F 0 "C90" H 7615 1571 50  0000 L CNN
+F 1 "10 uF 6,3 V" H 7615 1480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7538 1375 50  0001 C CNN
+F 3 "~" H 7500 1525 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7500 1525 50  0001 C CNN "Mfg Name"
+F 5 "CL10A106MQ8NNNC" H 7500 1525 50  0001 C CNN "Mfg Part Num"
+F 6 "1276-1119-1-ND" H 7500 1525 50  0001 C CNN "Digikey"
+F 7 " CAP CER 10UF 6.3V X5R 0603" H 7500 1525 50  0001 C CNN "Description"
+F 8 "Any" H -725 0   50  0001 C CNN "Spec"
+	1    7500 1525
+	1    0    0    -1  
+$EndComp
+Connection ~ 8225 1275
+Connection ~ 8225 1750
 $EndSCHEMATC
