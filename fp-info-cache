@@ -1,50 +1,15 @@
-10898950909112
+3114711274112
 footprints
-Amphenol_microUSB_B_footprint
-Footprint for Amphenol 10118194. Micro USB receptable, through hole, right angle
+BAT_BK-913_footprint
+Footprint for BK-913 Battery Coin Cell Retainer
 
 0
-13
-6
-footprints
-L_1008_2520Metric_2.5x2mm_footprint
-Footprint for 1008_2520Metric
-Inductor
-0
-2
+3
 2
 footprints
-L_Murata_DLW5BTM_5.00x5.00mm_footprint
-DLW5BTM Wire Wound Chip Common Mode Choke Coil
-Choke
-0
-8
-4
-footprints
-SW_SLIDE_DPDT_Slide_CK_JS202011SCQN_W3mm_P2.5mm_footprint
-Footprint for CK JS202011SCQN
-SMD Switch DPDT Slide
-0
-6
-6
-footprints
-SW_SPST_TL3305A
-https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
-TL3305 Series Tact Switch
-0
-4
-2
-footprints
-Texas_DRL_SOT-563_1.6x1.6mm_0.5mm-pitch_footprint
-Footprint for Texas Instruments DRL(SOT-563) Package
+Jack_3.5mm_CUI_SJ1-3523N_Horizontal
+Footprint for CUI SJ1-3523N/SJ1-3525N 3,5 mm Stero Audio Jack
 
 0
-6
-6
-footprints
-Y_ECS-3225S_3.2x2.5mm_footprint
-Footprint for ECS-3225S SMD Crystal Oscillator
-
-0
-4
-4
+5
+5
