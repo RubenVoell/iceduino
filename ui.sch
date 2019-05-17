@@ -1170,36 +1170,36 @@ F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 $EndComp
 NoConn ~ 8250 3350
 Wire Wire Line
-	8025 3450 8250 3450
-Wire Wire Line
-	8025 3650 8250 3650
-Wire Wire Line
-	8025 3850 8250 3850
-Wire Wire Line
-	8025 4050 8250 4050
-Wire Wire Line
-	8025 3550 8250 3550
-Wire Wire Line
-	8025 3750 8250 3750
+	8025 4150 8250 4150
 Wire Wire Line
 	8025 3950 8250 3950
 Wire Wire Line
-	8025 4150 8250 4150
-Text GLabel 8025 3450 0    50   BiDi ~ 0
-P1_1
-Text GLabel 8025 3650 0    50   BiDi ~ 0
-P2_1
-Text GLabel 8025 3850 0    50   BiDi ~ 0
-P3_1
+	8025 3750 8250 3750
+Wire Wire Line
+	8025 3550 8250 3550
+Wire Wire Line
+	8025 4050 8250 4050
+Wire Wire Line
+	8025 3850 8250 3850
+Wire Wire Line
+	8025 3650 8250 3650
+Wire Wire Line
+	8025 3450 8250 3450
 Text GLabel 8025 4050 0    50   BiDi ~ 0
+P1_1
+Text GLabel 8025 3850 0    50   BiDi ~ 0
+P2_1
+Text GLabel 8025 3650 0    50   BiDi ~ 0
+P3_1
+Text GLabel 8025 3450 0    50   BiDi ~ 0
 P4_1
-Text GLabel 8025 3550 0    50   BiDi ~ 0
-P7_1
-Text GLabel 8025 3750 0    50   BiDi ~ 0
-P8_1
-Text GLabel 8025 3950 0    50   BiDi ~ 0
-P9_1
 Text GLabel 8025 4150 0    50   BiDi ~ 0
+P7_1
+Text GLabel 8025 3950 0    50   BiDi ~ 0
+P8_1
+Text GLabel 8025 3750 0    50   BiDi ~ 0
+P9_1
+Text GLabel 8025 3550 0    50   BiDi ~ 0
 P10_1
 Text GLabel 7975 2550 0    50   BiDi ~ 0
 ADC_SDA_3V3

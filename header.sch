@@ -687,8 +687,6 @@ F 3 "" H 6375 1800 50  0001 C CNN
 	1    6375 1800
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	6375 1800 6050 1800
 $Comp
 L power:GND #PWR053
 U 1 1 5CD85CA5
@@ -702,33 +700,6 @@ F 3 "" H 5225 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5225 1800 5550 1800
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even PMOD1
-U 1 1 5CD7A9BF
-P 5850 1600
-F 0 "PMOD1" H 5900 2017 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 5900 1926 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5850 1600 50  0001 C CNN
-F 3 "~" H 5850 1600 50  0001 C CNN
-	1    5850 1600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5325 1400 5550 1400
-Wire Wire Line
-	5325 1500 5550 1500
-Wire Wire Line
-	5325 1600 5550 1600
-Wire Wire Line
-	5325 1700 5550 1700
-Wire Wire Line
-	6275 1400 6050 1400
-Wire Wire Line
-	6275 1500 6050 1500
-Wire Wire Line
-	6275 1600 6050 1600
-Wire Wire Line
-	6275 1700 6050 1700
 $Comp
 L power:GND #PWR056
 U 1 1 5CDD8FE0
@@ -758,13 +729,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even PMOD2
 U 1 1 5CDD9002
-P 7775 1600
-F 0 "PMOD2" H 7825 2017 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 7825 1926 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 7775 1600 50  0001 C CNN
-F 3 "~" H 7775 1600 50  0001 C CNN
-	1    7775 1600
-	-1   0    0    -1  
+P 7675 1700
+F 0 "PMOD2" H 7725 1175 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 7725 1266 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 7675 1700 50  0001 C CNN
+F 3 "~" H 7675 1700 50  0001 C CNN
+	1    7675 1700
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	7250 1400 7475 1400
@@ -825,13 +796,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even PMOD3
 U 1 1 5CDF4279
-P 5850 2500
-F 0 "PMOD3" H 5900 2917 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 5900 2826 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5850 2500 50  0001 C CNN
-F 3 "~" H 5850 2500 50  0001 C CNN
-	1    5850 2500
-	-1   0    0    -1  
+P 5750 2600
+F 0 "PMOD3" H 5800 2075 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 5800 2166 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5750 2600 50  0001 C CNN
+F 3 "~" H 5750 2600 50  0001 C CNN
+	1    5750 2600
+	1    0    0    1   
 $EndComp
 Text Label 5325 2300 0    50   ~ 0
 P1_3
@@ -865,66 +836,62 @@ Text Label 6275 2600 2    50   ~ 0
 P10_3
 Wire Wire Line
 	6275 2600 6050 2600
-Text Label 9700 1675 0    50   ~ 0
-P1_2
-Wire Wire Line
-	9700 1675 9925 1675
-Text Label 9700 1475 0    50   ~ 0
+Text Label 9700 2375 0    50   ~ 0
 P2_2
 Wire Wire Line
-	9700 1475 9925 1475
-Text Label 9700 2275 0    50   ~ 0
+	9700 2375 9925 2375
+Text Label 9700 2175 0    50   ~ 0
 P3_2
 Wire Wire Line
-	9700 2275 9925 2275
-Text Label 9700 1875 0    50   ~ 0
+	9700 2175 9925 2175
+Text Label 9700 1975 0    50   ~ 0
 P4_2
 Wire Wire Line
-	9700 1875 9925 1875
-Text Label 9700 1975 0    50   ~ 0
+	9700 1975 9925 1975
+Text Label 9700 2275 0    50   ~ 0
 P7_2
 Wire Wire Line
-	9700 1975 9925 1975
-Text Label 9700 2175 0    50   ~ 0
+	9700 2275 9925 2275
+Text Label 9700 1475 0    50   ~ 0
 P8_2
 Wire Wire Line
-	9700 2175 9925 2175
-Text Label 9700 2375 0    50   ~ 0
+	9700 1475 9925 1475
+Text Label 9700 1675 0    50   ~ 0
 P9_2
 Wire Wire Line
-	9700 2375 9925 2375
-Text Label 9700 1075 0    50   ~ 0
+	9700 1675 9925 1675
+Text Label 9700 2075 0    50   ~ 0
 P1_3
 Wire Wire Line
-	9700 1075 9925 1075
-Text Label 9700 975  0    50   ~ 0
+	9700 2075 9925 2075
+Text Label 9700 1775 0    50   ~ 0
 P2_3
 Wire Wire Line
-	9700 975  9925 975 
-Text Label 9700 1375 0    50   ~ 0
+	9700 1775 9925 1775
+Text Label 9700 1275 0    50   ~ 0
 P3_3
 Wire Wire Line
-	9700 1375 9925 1375
-Text Label 9700 1575 0    50   ~ 0
+	9700 1275 9925 1275
+Text Label 9700 1175 0    50   ~ 0
 P4_3
 Wire Wire Line
-	9700 1575 9925 1575
-Text Label 9700 1175 0    50   ~ 0
+	9700 1175 9925 1175
+Text Label 9700 1575 0    50   ~ 0
 P7_3
 Wire Wire Line
-	9700 1175 9925 1175
-Text Label 9700 1275 0    50   ~ 0
+	9700 1575 9925 1575
+Text Label 9700 1375 0    50   ~ 0
 P8_3
 Wire Wire Line
-	9700 1275 9925 1275
-Text Label 9700 1775 0    50   ~ 0
+	9700 1375 9925 1375
+Text Label 9700 975  0    50   ~ 0
 P9_3
 Wire Wire Line
-	9700 1775 9925 1775
-Text Label 9700 2075 0    50   ~ 0
+	9700 975  9925 975 
+Text Label 9700 1075 0    50   ~ 0
 P10_3
 Wire Wire Line
-	9700 2075 9925 2075
+	9700 1075 9925 1075
 Text GLabel 1775 2500 0    39   Output ~ 0
 RXD
 Text GLabel 1775 2600 0    39   Input ~ 0
@@ -939,22 +906,14 @@ Text GLabel 1775 2100 0    39   Output ~ 0
 ~DCD~
 Text Label 7250 1400 0    50   ~ 0
 P1_2
-Text GLabel 5325 1400 0    50   BiDi ~ 0
-P1_1
-Text GLabel 5325 1500 0    50   BiDi ~ 0
-P2_1
-Text GLabel 5325 1600 0    50   BiDi ~ 0
-P3_1
-Text GLabel 5325 1700 0    50   BiDi ~ 0
-P4_1
 Text GLabel 6275 1400 2    50   BiDi ~ 0
-P7_1
+P1_1
 Text GLabel 6275 1500 2    50   BiDi ~ 0
-P8_1
+P2_1
 Text GLabel 6275 1600 2    50   BiDi ~ 0
-P9_1
+P3_1
 Text GLabel 6275 1700 2    50   BiDi ~ 0
-P10_1
+P4_1
 Wire Wire Line
 	2325 2100 1775 2100
 Wire Wire Line
@@ -1762,8 +1721,8 @@ Wire Wire Line
 Text Label 1750 1400 0    50   ~ 0
 FPGA_INO_D2
 Wire Wire Line
-	9700 2475 9925 2475
-Text Label 9700 2475 0    50   ~ 0
+	9700 1875 9925 1875
+Text Label 9700 1875 0    50   ~ 0
 P10_2
 Text Label 5625 3025 3    50   ~ 0
 ADC_VCC
@@ -2135,8 +2094,6 @@ Wire Wire Line
 	4075 4325 4075 4375
 Text Label 6425 1900 2    50   ~ 0
 PMOD_3V3
-Wire Wire Line
-	6050 1900 6425 1900
 Text Label 5175 1900 0    50   ~ 0
 PMOD_3V3
 Wire Wire Line
@@ -2226,4 +2183,47 @@ F 3 "" H 3550 4525 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3550 4525 3550 4450
+Text GLabel 5325 1700 0    50   BiDi ~ 0
+P10_1
+Text GLabel 5325 1600 0    50   BiDi ~ 0
+P9_1
+Text GLabel 5325 1500 0    50   BiDi ~ 0
+P8_1
+Text GLabel 5325 1400 0    50   BiDi ~ 0
+P7_1
+Wire Wire Line
+	5325 1700 5550 1700
+Wire Wire Line
+	5325 1600 5550 1600
+Wire Wire Line
+	5325 1500 5550 1500
+Wire Wire Line
+	5325 1400 5550 1400
+Wire Wire Line
+	9700 2475 9925 2475
+Text Label 9700 2475 0    50   ~ 0
+P1_2
+Wire Wire Line
+	6275 1600 6050 1600
+Wire Wire Line
+	6275 1700 6050 1700
+Wire Wire Line
+	6375 1800 6050 1800
+Wire Wire Line
+	6050 1900 6425 1900
+Wire Wire Line
+	6275 1400 6050 1400
+Wire Wire Line
+	6275 1500 6050 1500
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even PMOD1
+U 1 1 5CD7A9BF
+P 5750 1700
+F 0 "PMOD1" H 5800 1175 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 5800 1266 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5750 1700 50  0001 C CNN
+F 3 "~" H 5750 1700 50  0001 C CNN
+	1    5750 1700
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
