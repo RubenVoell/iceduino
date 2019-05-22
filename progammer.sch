@@ -235,6 +235,11 @@ F 0 "R23" V 3440 7625 50  0000 C CNN
 F 1 "2,2k" V 3531 7625 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3255 7625 50  0001 C CNN
 F 3 "~" H 3325 7625 50  0001 C CNN
+F 4 "RES SMD 2.2K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-2.20KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-072K2L" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3325 7625
 	0    -1   1    0   
 $EndComp
@@ -253,6 +258,11 @@ F 0 "R20" H 2480 7046 50  0000 R CNN
 F 1 "10k" H 2480 6955 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 7000 50  0001 C CNN
 F 3 "~" H 2550 7000 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2550 7000
 	-1   0    0    -1  
 $EndComp
@@ -264,6 +274,11 @@ F 0 "R21" H 2780 7046 50  0000 R CNN
 F 1 "10k" H 2780 6955 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 7000 50  0001 C CNN
 F 3 "~" H 2850 7000 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2850 7000
 	-1   0    0    -1  
 $EndComp
@@ -275,6 +290,11 @@ F 0 "R22" H 3055 7046 50  0000 R CNN
 F 1 "10k" H 3055 6955 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3055 7000 50  0001 C CNN
 F 3 "~" H 3125 7000 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3125 7000
 	-1   0    0    -1  
 $EndComp
@@ -350,6 +370,11 @@ F 0 "R34" V 3240 6225 50  0000 C CNN
 F 1 "2,2k" V 3331 6225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3055 6225 50  0001 C CNN
 F 3 "~" H 3125 6225 50  0001 C CNN
+F 4 "RES SMD 2.2K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-2.20KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-072K2L" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3125 6225
 	0    -1   1    0   
 $EndComp
@@ -361,6 +386,11 @@ F 0 "R33" V 2900 6025 50  0000 C CNN
 F 1 "12k" V 3000 6025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3055 6025 50  0001 C CNN
 F 3 "~" H 3125 6025 50  0001 C CNN
+F 4 "RES SMD 12K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-12KGRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603JR-0712KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3125 6025
 	0    -1   1    0   
 $EndComp
@@ -407,7 +437,7 @@ F 3 "~" H 3150 5200 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 3150 5200 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 3150 5200 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 3150 5200 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 3150 5200 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 3150 5200 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3150 5200
 	1    0    0    -1  
@@ -545,7 +575,7 @@ F 3 "~" H 7050 1450 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 7050 1450 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 7050 1450 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 7050 1450 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 7050 1450 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 7050 1450 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    7050 1450
 	1    0    0    -1  
@@ -614,7 +644,7 @@ F 3 "~" H 5725 1450 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 5725 1450 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 5725 1450 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 5725 1450 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 5725 1450 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 5725 1450 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5725 1450
 	1    0    0    -1  
@@ -802,6 +832,11 @@ F 0 "R43" V 15050 8275 50  0000 C CNN
 F 1 "10k" V 15100 8125 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 15030 8125 50  0001 C CNN
 F 3 "~" H 15100 8125 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    15100 8125
 	0    -1   1    0   
 $EndComp
@@ -828,6 +863,11 @@ F 0 "R44" V 13000 8075 50  0000 C CNN
 F 1 "10k" V 13050 8225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 8225 50  0001 C CNN
 F 3 "~" H 13050 8225 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    13050 8225
 	0    1    1    0   
 $EndComp
@@ -854,6 +894,11 @@ F 0 "R38" H 14180 7221 50  0000 R CNN
 F 1 "10k" H 14180 7130 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 14180 7175 50  0001 C CNN
 F 3 "~" H 14250 7175 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    14250 7175
 	-1   0    0    -1  
 $EndComp
@@ -876,6 +921,11 @@ F 0 "R39" H 14480 7221 50  0000 R CNN
 F 1 "10k" H 14480 7130 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 14480 7175 50  0001 C CNN
 F 3 "~" H 14550 7175 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    14550 7175
 	-1   0    0    -1  
 $EndComp
@@ -924,6 +974,11 @@ F 0 "D11" H 6268 7941 50  0000 C CNN
 F 1 "RX LED" H 6268 7850 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 6275 7725 50  0001 C CNN
 F 3 "~" H 6275 7725 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6275 7725
 	1    0    0    -1  
 $EndComp
@@ -937,6 +992,11 @@ F 0 "R52" V 6393 7725 50  0000 C CNN
 F 1 "560" V 6484 7725 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 7725 50  0001 C CNN
 F 3 "~" H 6600 7725 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6600 7725
 	0    1    1    0   
 $EndComp
@@ -956,6 +1016,11 @@ F 0 "D12" H 6268 7663 50  0000 C CNN
 F 1 "TX LED" H 6268 7572 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 6275 7825 50  0001 C CNN
 F 3 "~" H 6275 7825 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6275 7825
 	1    0    0    -1  
 $EndComp
@@ -969,6 +1034,11 @@ F 0 "R53" V 6715 7825 50  0000 C CNN
 F 1 "560" V 6806 7825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 7825 50  0001 C CNN
 F 3 "~" H 6600 7825 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6600 7825
 	0    1    1    0   
 $EndComp
@@ -1213,6 +1283,11 @@ F 1 "10k" H 6405 9025 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6405 9025 50  0001 C CNN
 F 3 "~" H 6475 9025 50  0001 C CNN
 F 4 "DNP" H 6405 8934 50  0000 R CNN "DNP"
+F 5 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 6 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 7 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 8 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 9 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6475 9025
 	-1   0    0    -1  
 $EndComp
@@ -1600,7 +1675,7 @@ F 3 "~" H 8350 1425 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 8350 1425 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 8350 1425 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 8350 1425 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 8350 1425 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 8350 1425 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    8350 1425
 	1    0    0    -1  
@@ -1628,7 +1703,7 @@ F 3 "~" H 2575 1425 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 2575 1425 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 2575 1425 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 2575 1425 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 2575 1425 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 2575 1425 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2575 1425
 	1    0    0    -1  
@@ -1757,7 +1832,7 @@ F 3 "~" H 14275 4250 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 14275 4250 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 14275 4250 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 14275 4250 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 14275 4250 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 14275 4250 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    14275 4250
 	1    0    0    -1  
@@ -1926,6 +2001,11 @@ F 0 "R45" H 770 1771 50  0000 L CNN
 F 1 "10k" H 770 1680 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 630 1725 50  0001 C CNN
 F 3 "~" H 700 1725 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    700  1725
 	-1   0    0    -1  
 $EndComp
@@ -2348,6 +2428,11 @@ F 0 "R59" H 7980 4296 50  0000 R CNN
 F 1 "10k" H 7980 4205 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7980 4250 50  0001 C CNN
 F 3 "~" H 8050 4250 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    8050 4250
 	-1   0    0    -1  
 $EndComp
@@ -3025,6 +3110,11 @@ F 0 "R58" H 7106 4246 50  0000 R CNN
 F 1 "10k" H 7106 4155 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7105 4200 50  0001 C CNN
 F 3 "~" H 7175 4200 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    7175 4200
 	1    0    0    -1  
 $EndComp
@@ -3036,6 +3126,11 @@ F 0 "R29" H 7205 4246 50  0000 R CNN
 F 1 "10k" H 7205 4155 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7205 4200 50  0001 C CNN
 F 3 "~" H 7275 4200 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    7275 4200
 	-1   0    0    -1  
 $EndComp
@@ -3065,6 +3160,11 @@ F 0 "D18" V 1764 3657 50  0000 R CNN
 F 1 "USB ON LED" V 1673 3657 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 1725 3775 50  0001 C CNN
 F 3 "~" H 1725 3775 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1725 3775
 	0    -1   -1   0   
 $EndComp
@@ -3078,6 +3178,11 @@ F 0 "R68" H 1795 3496 50  0000 L CNN
 F 1 "560" H 1795 3405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1655 3450 50  0001 C CNN
 F 3 "~" H 1725 3450 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1725 3450
 	1    0    0    -1  
 $EndComp

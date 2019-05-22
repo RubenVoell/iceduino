@@ -58,6 +58,11 @@ F 0 "J2" H 1655 5917 50  0000 L CNN
 F 1 "Conn_01x08" H 1655 5826 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 1575 5925 50  0001 C CNN
 F 3 "~" H 1575 5925 50  0001 C CNN
+F 4 "CONN HDR 8POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
+F 5 "S7041-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "PPPC081LFBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1575 5925
 	1    0    0    -1  
 $EndComp
@@ -69,6 +74,11 @@ F 0 "J3" H 1655 6767 50  0000 L CNN
 F 1 "Conn_01x06" H 1655 6676 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1575 6775 50  0001 C CNN
 F 3 "~" H 1575 6775 50  0001 C CNN
+F 4 "CONN HDR 6POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
+F 5 "S7039-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "PPPC061LFBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1575 6775
 	1    0    0    -1  
 $EndComp
@@ -80,6 +90,11 @@ F 0 "J1" H 3005 5867 50  0000 L CNN
 F 1 "Conn_01x10" H 3005 5776 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 2925 5875 50  0001 C CNN
 F 3 "~" H 2925 5875 50  0001 C CNN
+F 4 "CONN HDR 10POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
+F 5 "732-2859-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Wurth Electronics Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "61301011821" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2925 5875
 	1    0    0    -1  
 $EndComp
@@ -91,6 +106,11 @@ F 0 "J4" H 3005 6867 50  0000 L CNN
 F 1 "Conn_01x08" H 3005 6776 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 2925 6875 50  0001 C CNN
 F 3 "~" H 2925 6875 50  0001 C CNN
+F 4 "CONN HDR 8POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
+F 5 "S7041-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "PPPC081LFBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2925 6875
 	1    0    0    -1  
 $EndComp
@@ -488,6 +508,11 @@ F 0 "R31" H 4520 7171 50  0000 L CNN
 F 1 "4,7k" H 4520 7080 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 7125 50  0001 C CNN
 F 3 "~" H 4450 7125 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4450 7125
 	1    0    0    -1  
 $EndComp
@@ -501,6 +526,11 @@ F 0 "R32" H 4820 7171 50  0000 L CNN
 F 1 "4,7k" H 4820 7080 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 7125 50  0001 C CNN
 F 3 "~" H 4750 7125 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4750 7125
 	1    0    0    -1  
 $EndComp
@@ -734,6 +764,11 @@ F 0 "PMOD2" H 7725 1175 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 7725 1266 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 7675 1700 50  0001 C CNN
 F 3 "~" H 7675 1700 50  0001 C CNN
+F 4 "CONN HDR 12POS 0.1 GOLD PCB R/A " H 0   0   50  0001 C CNN "Description"
+F 5 "S5559-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "PPPC062LJBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    7675 1700
 	1    0    0    1   
 $EndComp
@@ -801,6 +836,11 @@ F 0 "PMOD3" H 5800 2075 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 5800 2166 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5750 2600 50  0001 C CNN
 F 3 "~" H 5750 2600 50  0001 C CNN
+F 4 "CONN HDR 12POS 0.1 GOLD PCB R/A " H 0   0   50  0001 C CNN "Description"
+F 5 "S5559-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "PPPC062LJBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5750 2600
 	1    0    0    1   
 $EndComp
@@ -953,6 +993,11 @@ F 0 "R54" H 1005 2646 50  0000 R CNN
 F 1 "10k" H 1005 2555 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1005 2600 50  0001 C CNN
 F 3 "~" H 1075 2600 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1075 2600
 	-1   0    0    -1  
 $EndComp
@@ -1156,6 +1201,11 @@ F 0 "D17" V 4489 1907 50  0000 R CNN
 F 1 "DONE" V 4398 1907 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 4450 2025 50  0001 C CNN
 F 3 "~" H 4450 2025 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4450 2025
 	0    -1   -1   0   
 $EndComp
@@ -1184,6 +1234,11 @@ F 0 "R60" H 4520 1746 50  0000 L CNN
 F 1 "560" H 4520 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 1700 50  0001 C CNN
 F 3 "~" H 4450 1700 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4450 1700
 	1    0    0    -1  
 $EndComp
@@ -1278,6 +1333,11 @@ F 0 "R63" H 7905 3546 50  0000 R CNN
 F 1 "4,7k" H 7905 3455 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7905 3500 50  0001 C CNN
 F 3 "~" H 7975 3500 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    7975 3500
 	1    0    0    -1  
 $EndComp
@@ -1291,6 +1351,11 @@ F 0 "R64" H 8545 3546 50  0000 L CNN
 F 1 "4,7k" H 8545 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8405 3500 50  0001 C CNN
 F 3 "~" H 8475 3500 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    8475 3500
 	1    0    0    -1  
 $EndComp
@@ -1364,6 +1429,11 @@ F 0 "R61" H 5555 3521 50  0000 R CNN
 F 1 "4,7k" H 5555 3430 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5555 3475 50  0001 C CNN
 F 3 "~" H 5625 3475 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5625 3475
 	1    0    0    -1  
 $EndComp
@@ -1377,6 +1447,11 @@ F 0 "R62" H 6195 3521 50  0000 L CNN
 F 1 "4,7k" H 6195 3430 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6055 3475 50  0001 C CNN
 F 3 "~" H 6125 3475 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6125 3475
 	1    0    0    -1  
 $EndComp
@@ -1455,7 +1530,7 @@ F 3 "~" H 8050 5575 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 8050 5575 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 8050 5575 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 8050 5575 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 8050 5575 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 8050 5575 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    8050 5575
 	1    0    0    -1  
@@ -1814,7 +1889,7 @@ F 3 "~" H 2700 4125 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 2700 4125 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 2700 4125 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 2700 4125 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 2700 4125 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 2700 4125 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2700 4125
 	1    0    0    -1  
@@ -1854,6 +1929,11 @@ F 0 "R55" H 9030 5121 50  0000 R CNN
 F 1 "270k 1%" H 9030 5030 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 5075 50  0001 C CNN
 F 3 "~" H 9100 5075 50  0001 C CNN
+F 4 "RES SMD 270K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-270KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-07270KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    9100 5075
 	1    0    0    -1  
 $EndComp
@@ -1869,6 +1949,11 @@ F 0 "R69" H 9030 5496 50  0000 R CNN
 F 1 "30k 1%" H 9030 5405 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 5450 50  0001 C CNN
 F 3 "~" H 9100 5450 50  0001 C CNN
+F 4 "RES SMD 30K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-30.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-0730KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    9100 5450
 	1    0    0    -1  
 $EndComp
@@ -1937,6 +2022,11 @@ F 0 "R70" H 9470 5821 50  0000 L CNN
 F 1 "1k" H 9470 5730 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 5775 50  0001 C CNN
 F 3 "~" H 9400 5775 50  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-1.0KGRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603JR-071KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    9400 5775
 	0    -1   -1   0   
 $EndComp
@@ -2075,7 +2165,7 @@ F 3 "~" H 4575 4150 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 4575 4150 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 4575 4150 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 4575 4150 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 4575 4150 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 4575 4150 50  0001 C CNN "Description"
 F 8 "Any" H 1875 25  50  0001 C CNN "Spec"
 	1    4575 4150
 	1    0    0    -1  
@@ -2128,7 +2218,7 @@ F 3 "~" H 5175 4125 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 5175 4125 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 5175 4125 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 5175 4125 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 5175 4125 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 5175 4125 50  0001 C CNN "Description"
 F 8 "Any" H 2475 0   50  0001 C CNN "Spec"
 	1    5175 4125
 	1    0    0    -1  
@@ -2162,6 +2252,11 @@ F 0 "R71" H 3480 4346 50  0000 R CNN
 F 1 "10k" H 3480 4255 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 4300 50  0001 C CNN
 F 3 "~" H 3550 4300 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3550 4300
 	1    0    0    -1  
 $EndComp
@@ -2223,6 +2318,11 @@ F 0 "PMOD1" H 5800 1175 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 5800 1266 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5750 1700 50  0001 C CNN
 F 3 "~" H 5750 1700 50  0001 C CNN
+F 4 "CONN HDR 12POS 0.1 GOLD PCB R/A " H 0   0   50  0001 C CNN "Description"
+F 5 "S5559-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "PPPC062LJBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5750 1700
 	1    0    0    1   
 $EndComp

@@ -70,6 +70,11 @@ F 0 "D1" V 889 1607 50  0000 R CNN
 F 1 "LED_ALT" V 798 1607 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 850 1725 50  0001 C CNN
 F 3 "~" H 850 1725 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    850  1725
 	0    -1   -1   0   
 $EndComp
@@ -94,6 +99,11 @@ F 0 "R1" H 920 1396 50  0000 L CNN
 F 1 "560" H 920 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 780 1350 50  0001 C CNN
 F 3 "~" H 850 1350 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    850  1350
 	1    0    0    -1  
 $EndComp
@@ -111,6 +121,11 @@ F 0 "D2" V 1364 1607 50  0000 R CNN
 F 1 "LED_ALT" V 1273 1607 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 1325 1725 50  0001 C CNN
 F 3 "~" H 1325 1725 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1325 1725
 	0    -1   -1   0   
 $EndComp
@@ -135,6 +150,11 @@ F 0 "R2" H 1395 1396 50  0000 L CNN
 F 1 "560" H 1395 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1255 1350 50  0001 C CNN
 F 3 "~" H 1325 1350 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1325 1350
 	1    0    0    -1  
 $EndComp
@@ -152,6 +172,11 @@ F 0 "D3" V 1839 1607 50  0000 R CNN
 F 1 "LED_ALT" V 1748 1607 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 1800 1725 50  0001 C CNN
 F 3 "~" H 1800 1725 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1800 1725
 	0    -1   -1   0   
 $EndComp
@@ -176,6 +201,11 @@ F 0 "R3" H 1870 1396 50  0000 L CNN
 F 1 "560" H 1870 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 1350 50  0001 C CNN
 F 3 "~" H 1800 1350 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1800 1350
 	1    0    0    -1  
 $EndComp
@@ -193,6 +223,11 @@ F 0 "D4" V 2314 1607 50  0000 R CNN
 F 1 "LED_ALT" V 2223 1607 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2275 1725 50  0001 C CNN
 F 3 "~" H 2275 1725 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2275 1725
 	0    -1   -1   0   
 $EndComp
@@ -217,6 +252,11 @@ F 0 "R4" H 2345 1396 50  0000 L CNN
 F 1 "560" H 2345 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2205 1350 50  0001 C CNN
 F 3 "~" H 2275 1350 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2275 1350
 	1    0    0    -1  
 $EndComp
@@ -234,6 +274,11 @@ F 0 "D5" V 2814 1607 50  0000 R CNN
 F 1 "LED_ALT" V 2723 1607 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2775 1725 50  0001 C CNN
 F 3 "~" H 2775 1725 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2775 1725
 	0    -1   -1   0   
 $EndComp
@@ -258,6 +303,11 @@ F 0 "R5" H 2845 1396 50  0000 L CNN
 F 1 "560" H 2845 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2705 1350 50  0001 C CNN
 F 3 "~" H 2775 1350 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2775 1350
 	1    0    0    -1  
 $EndComp
@@ -275,6 +325,11 @@ F 0 "D6" V 3289 1607 50  0000 R CNN
 F 1 "LED_ALT" V 3198 1607 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 3250 1725 50  0001 C CNN
 F 3 "~" H 3250 1725 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3250 1725
 	0    -1   -1   0   
 $EndComp
@@ -299,6 +354,11 @@ F 0 "R6" H 3320 1396 50  0000 L CNN
 F 1 "560" H 3320 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 1350 50  0001 C CNN
 F 3 "~" H 3250 1350 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3250 1350
 	1    0    0    -1  
 $EndComp
@@ -316,6 +376,11 @@ F 0 "D7" V 3764 1607 50  0000 R CNN
 F 1 "LED_ALT" V 3673 1607 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 3725 1725 50  0001 C CNN
 F 3 "~" H 3725 1725 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3725 1725
 	0    -1   -1   0   
 $EndComp
@@ -340,6 +405,11 @@ F 0 "R7" H 3795 1396 50  0000 L CNN
 F 1 "560" H 3795 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3655 1350 50  0001 C CNN
 F 3 "~" H 3725 1350 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3725 1350
 	1    0    0    -1  
 $EndComp
@@ -357,6 +427,11 @@ F 0 "D8" V 4239 1607 50  0000 R CNN
 F 1 "LED_ALT" V 4148 1607 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 4200 1725 50  0001 C CNN
 F 3 "~" H 4200 1725 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4200 1725
 	0    -1   -1   0   
 $EndComp
@@ -381,6 +456,11 @@ F 0 "R8" H 4270 1396 50  0000 L CNN
 F 1 "560" H 4270 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4130 1350 50  0001 C CNN
 F 3 "~" H 4200 1350 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4200 1350
 	1    0    0    -1  
 $EndComp
@@ -450,6 +530,11 @@ F 0 "R9" H 1420 2921 50  0000 L CNN
 F 1 "4,7k" H 1420 2830 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1280 2875 50  0001 C CNN
 F 3 "~" H 1350 2875 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1350 2875
 	1    0    0    -1  
 $EndComp
@@ -463,6 +548,11 @@ F 0 "R11" H 3645 2921 50  0000 L CNN
 F 1 "4,7k" H 3645 2830 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3505 2875 50  0001 C CNN
 F 3 "~" H 3575 2875 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3575 2875
 	1    0    0    -1  
 $EndComp
@@ -478,6 +568,11 @@ F 0 "R12" H 4745 2946 50  0000 L CNN
 F 1 "4,7k" H 4745 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4605 2900 50  0001 C CNN
 F 3 "~" H 4675 2900 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4675 2900
 	1    0    0    -1  
 $EndComp
@@ -493,6 +588,11 @@ F 0 "R13" H 5870 2946 50  0000 L CNN
 F 1 "4,7k" H 5870 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 2900 50  0001 C CNN
 F 3 "~" H 5800 2900 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5800 2900
 	1    0    0    -1  
 $EndComp
@@ -591,6 +691,11 @@ F 0 "R24" H 1220 3271 50  0000 L CNN
 F 1 "470" H 1220 3180 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1080 3225 50  0001 C CNN
 F 3 "~" H 1150 3225 50  0001 C CNN
+F 4 "RES 470 OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT470RCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT470R" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1150 3225
 	0    1    1    0   
 $EndComp
@@ -628,6 +733,11 @@ F 0 "R10" H 2495 2921 50  0000 L CNN
 F 1 "4,7k" H 2495 2830 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2355 2875 50  0001 C CNN
 F 3 "~" H 2425 2875 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2425 2875
 	1    0    0    -1  
 $EndComp
@@ -715,6 +825,11 @@ F 0 "R25" H 2295 3271 50  0000 L CNN
 F 1 "470" H 2295 3180 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2155 3225 50  0001 C CNN
 F 3 "~" H 2225 3225 50  0001 C CNN
+F 4 "RES 470 OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT470RCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT470R" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    2225 3225
 	0    1    1    0   
 $EndComp
@@ -762,6 +877,11 @@ F 0 "R26" H 3445 3271 50  0000 L CNN
 F 1 "470" H 3445 3180 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3305 3225 50  0001 C CNN
 F 3 "~" H 3375 3225 50  0001 C CNN
+F 4 "RES 470 OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT470RCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT470R" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3375 3225
 	0    1    1    0   
 $EndComp
@@ -781,6 +901,11 @@ F 0 "R27" H 4545 3296 50  0000 L CNN
 F 1 "470" H 4545 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4405 3250 50  0001 C CNN
 F 3 "~" H 4475 3250 50  0001 C CNN
+F 4 "RES 470 OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT470RCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT470R" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4475 3250
 	0    1    1    0   
 $EndComp
@@ -825,6 +950,11 @@ F 0 "R28" H 5670 3296 50  0000 L CNN
 F 1 "470" H 5670 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 3250 50  0001 C CNN
 F 3 "~" H 5600 3250 50  0001 C CNN
+F 4 "RES 470 OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT470RCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT470R" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5600 3250
 	0    1    1    0   
 $EndComp
@@ -898,6 +1028,11 @@ F 0 "R50" H 2020 4821 50  0000 L CNN
 F 1 "4,7k" H 2020 4730 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 4775 50  0001 C CNN
 F 3 "~" H 1950 4775 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1950 4775
 	1    0    0    -1  
 $EndComp
@@ -955,6 +1090,11 @@ F 0 "R56" H 1820 5171 50  0000 L CNN
 F 1 "470" H 1820 5080 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 5125 50  0001 C CNN
 F 3 "~" H 1750 5125 50  0001 C CNN
+F 4 "RES 470 OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT470RCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT470R" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1750 5125
 	0    1    1    0   
 $EndComp
@@ -1006,6 +1146,11 @@ F 0 "R51" H 3495 4846 50  0000 L CNN
 F 1 "4,7k" H 3495 4755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3355 4800 50  0001 C CNN
 F 3 "~" H 3425 4800 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3425 4800
 	1    0    0    -1  
 $EndComp
@@ -1063,6 +1208,11 @@ F 0 "R57" H 3295 5196 50  0000 L CNN
 F 1 "470" H 3295 5105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3155 5150 50  0001 C CNN
 F 3 "~" H 3225 5150 50  0001 C CNN
+F 4 "RES 470 OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT470RCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT470R" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3225 5150
 	0    1    1    0   
 $EndComp

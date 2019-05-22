@@ -73,7 +73,7 @@ F 3 "~" H 1250 7350 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 1250 7350 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 1250 7350 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 1250 7350 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 1250 7350 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 1250 7350 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1250 7350
 	1    0    0    -1  
@@ -89,7 +89,7 @@ F 3 "~" H 3925 7375 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 3925 7375 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 3925 7375 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 3925 7375 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 3925 7375 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 3925 7375 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3925 7375
 	1    0    0    -1  
@@ -102,6 +102,11 @@ F 0 "R14" H 5345 7421 50  0000 L CNN
 F 1 "100k 1%" H 5345 7330 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5205 7375 50  0001 C CNN
 F 3 "~" H 5275 7375 50  0001 C CNN
+F 4 "RES SMD 100K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-100KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5275 7375
 	1    0    0    -1  
 $EndComp
@@ -113,6 +118,11 @@ F 0 "R15" H 5345 7846 50  0000 L CNN
 F 1 "100k 1%" H 5345 7755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5205 7800 50  0001 C CNN
 F 3 "~" H 5275 7800 50  0001 C CNN
+F 4 "RES SMD 100K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-100KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5275 7800
 	1    0    0    -1  
 $EndComp
@@ -300,7 +310,7 @@ F 3 "~" H 1225 9300 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 1225 9300 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 1225 9300 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 1225 9300 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 1225 9300 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 1225 9300 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    1225 9300
 	1    0    0    -1  
@@ -316,7 +326,7 @@ F 3 "~" H 3900 9325 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 3900 9325 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 3900 9325 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 3900 9325 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 3900 9325 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 3900 9325 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    3900 9325
 	1    0    0    -1  
@@ -332,7 +342,7 @@ F 3 "~" H 4600 9325 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 4600 9325 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 4600 9325 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 4600 9325 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 4600 9325 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 4600 9325 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4600 9325
 	1    0    0    -1  
@@ -345,6 +355,11 @@ F 0 "R16" H 5320 9371 50  0000 L CNN
 F 1 "220k 1%" H 5320 9280 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5180 9325 50  0001 C CNN
 F 3 "~" H 5250 9325 50  0001 C CNN
+F 4 "RES SMD 220K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-220KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-07220KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5250 9325
 	1    0    0    -1  
 $EndComp
@@ -356,6 +371,11 @@ F 0 "R17" H 5320 9796 50  0000 L CNN
 F 1 "48,7k 1%" H 5320 9705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5180 9750 50  0001 C CNN
 F 3 "~" H 5250 9750 50  0001 C CNN
+F 4 "RES SMD 48.7K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-48.7KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-0748K7L" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    5250 9750
 	1    0    0    -1  
 $EndComp
@@ -590,6 +610,11 @@ F 0 "R18" H 6370 9371 50  0000 L CNN
 F 1 "10k" H 6370 9280 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 9325 50  0001 C CNN
 F 3 "~" H 6300 9325 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6300 9325
 	1    0    0    -1  
 $EndComp
@@ -609,6 +634,11 @@ F 0 "D9" V 6739 9582 50  0000 R CNN
 F 1 "LED_ALT" V 6648 9582 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 6700 9700 50  0001 C CNN
 F 3 "~" H 6700 9700 50  0001 C CNN
+F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6700 9700
 	0    -1   -1   0   
 $EndComp
@@ -633,6 +663,11 @@ F 0 "R19" H 6770 9371 50  0000 L CNN
 F 1 "560" H 6770 9280 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 9325 50  0001 C CNN
 F 3 "~" H 6700 9325 50  0001 C CNN
+F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6700 9325
 	1    0    0    -1  
 $EndComp
@@ -1112,7 +1147,7 @@ F 3 "~" H 13900 5525 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 13900 5525 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 13900 5525 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 13900 5525 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 13900 5525 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 13900 5525 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    13900 5525
 	1    0    0    -1  
@@ -1157,6 +1192,11 @@ F 0 "R42" H 13970 5171 50  0000 L CNN
 F 1 "100" H 13970 5080 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13830 5125 50  0001 C CNN
 F 3 "~" H 13900 5125 50  0001 C CNN
+F 4 "RES 100 OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603FT100RCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603FT100R" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    13900 5125
 	1    0    0    -1  
 $EndComp
@@ -1187,7 +1227,7 @@ F 3 "~" H 12600 5525 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 12600 5525 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 12600 5525 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 12600 5525 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 12600 5525 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 12600 5525 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    12600 5525
 	1    0    0    -1  
@@ -1232,6 +1272,11 @@ F 0 "R41" H 12670 5171 50  0000 L CNN
 F 1 "100" H 12670 5080 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 12530 5125 50  0001 C CNN
 F 3 "~" H 12600 5125 50  0001 C CNN
+F 4 "RES 100 OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603FT100RCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603FT100R" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    12600 5125
 	1    0    0    -1  
 $EndComp
@@ -1285,6 +1330,11 @@ F 0 "R46" H 11295 4671 50  0000 L CNN
 F 1 "33k" H 11295 4580 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 11155 4625 50  0001 C CNN
 F 3 "~" H 11225 4625 50  0001 C CNN
+F 4 "RES SMD 33K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-33KGRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603JR-0733KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    11225 4625
 	-1   0    0    1   
 $EndComp
@@ -1296,6 +1346,11 @@ F 0 "R47" H 10945 4671 50  0000 L CNN
 F 1 "10k" H 10945 4580 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10805 4625 50  0001 C CNN
 F 3 "~" H 10875 4625 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    10875 4625
 	-1   0    0    1   
 $EndComp
@@ -1353,6 +1408,11 @@ F 0 "R49" H 11295 5646 50  0000 L CNN
 F 1 "22k" H 11295 5555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 11155 5600 50  0001 C CNN
 F 3 "~" H 11225 5600 50  0001 C CNN
+F 4 "RES SMD 22K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-22.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-0722KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    11225 5600
 	-1   0    0    1   
 $EndComp
@@ -1424,7 +1484,7 @@ F 3 "~" H 13350 1500 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 13350 1500 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 13350 1500 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 13350 1500 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 13350 1500 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 13350 1500 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    13350 1500
 	1    0    0    -1  
@@ -1447,6 +1507,11 @@ F 0 "R30" V 5818 7150 50  0000 C CNN
 F 1 "0" V 5909 7150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5955 7150 50  0001 C CNN
 F 3 "~" H 6025 7150 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "311-0.0ARCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0805JR-070RL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6025 7150
 	0    1    1    0   
 $EndComp
@@ -1495,7 +1560,7 @@ F 3 "~" H 4625 7375 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 4625 7375 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 4625 7375 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 4625 7375 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 4625 7375 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 4625 7375 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    4625 7375
 	1    0    0    -1  
@@ -1511,7 +1576,7 @@ F 3 "~" H 6450 7375 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 6450 7375 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 6450 7375 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 6450 7375 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 6450 7375 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 6450 7375 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6450 7375
 	1    0    0    -1  
@@ -1571,7 +1636,7 @@ F 3 "~" H 8225 1525 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 8225 1525 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 8225 1525 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 8225 1525 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 8225 1525 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 8225 1525 50  0001 C CNN "Description"
 F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    8225 1525
 	1    0    0    -1  
@@ -1845,6 +1910,11 @@ F 0 "R48" H 6680 6079 50  0000 R CNN
 F 1 "10k" H 6680 6170 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 6125 50  0001 C CNN
 F 3 "~" H 6750 6125 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6750 6125
 	-1   0    0    1   
 $EndComp
@@ -1856,6 +1926,11 @@ F 0 "R67" H 6680 5129 50  0000 R CNN
 F 1 "10k" H 6680 5220 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 5175 50  0001 C CNN
 F 3 "~" H 6750 5175 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6750 5175
 	-1   0    0    1   
 $EndComp
@@ -2302,6 +2377,11 @@ F 0 "R40" H 6395 3921 50  0000 L CNN
 F 1 "10k 1%" H 6395 3830 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6255 3875 50  0001 C CNN
 F 3 "~" H 6325 3875 50  0001 C CNN
+F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "311-10.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-0710KL" H 0   0   50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6325 3875
 	1    0    0    -1  
 $EndComp
@@ -2313,6 +2393,11 @@ F 0 "R35" H 6395 3496 50  0000 L CNN
 F 1 "54k9 1%" H 6395 3405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6255 3450 50  0001 C CNN
 F 3 "~" H 6325 3450 50  0001 C CNN
+F 4 "Yageo" H 6325 3450 50  0001 C CNN "Mfg Name"
+F 5 "RC0603FR-0754K9L" H 6325 3450 50  0001 C CNN "Mfg Part Num"
+F 6 "311-54.9KHRCT-ND" H 6325 3450 50  0001 C CNN "Digikey"
+F 7 "RES SMD 54.9K OHM 1% 1/10W 0603" H 6325 3450 50  0001 C CNN "Description"
+F 8 "Any" H 0   0   50  0001 C CNN "Spec"
 	1    6325 3450
 	1    0    0    -1  
 $EndComp
@@ -2460,7 +2545,7 @@ F 3 "~" H 7500 1525 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 7500 1525 50  0001 C CNN "Mfg Name"
 F 5 "CL10A106MQ8NNNC" H 7500 1525 50  0001 C CNN "Mfg Part Num"
 F 6 "1276-1119-1-ND" H 7500 1525 50  0001 C CNN "Digikey"
-F 7 " CAP CER 10UF 6.3V X5R 0603" H 7500 1525 50  0001 C CNN "Description"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 7500 1525 50  0001 C CNN "Description"
 F 8 "Any" H -725 0   50  0001 C CNN "Spec"
 	1    7500 1525
 	1    0    0    -1  
